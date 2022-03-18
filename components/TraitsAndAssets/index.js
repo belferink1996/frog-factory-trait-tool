@@ -70,8 +70,8 @@ const TraitsAndAssets = ({ wallets = [] }) => {
               If you recently minted, please wait for the developer to sync all
               assets with the blockchain.
               <br />
-              If this took more than a day or two please DM "
-              <strong>Ben | ₳D₳#0001</strong>" on Discord.
+              If this took more than a day or two please DM &quot;
+              <strong>Ben | ₳D₳#0001</strong>&quot; on Discord.
             </p>
             <br />
           </div>
