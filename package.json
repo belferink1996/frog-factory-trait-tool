@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "blockfrost-bot": "node --trace-warnings ./_bots/blockfrost.js",
-    "trait-bot": "node --trace-warnings ./_bots/get-trait-rarities.js"
+    "blockfrost-bot": "node --trace-warnings ./_bots/blockfrost.js"
   },
   "dependencies": {
     "axios": "^0.26.1",
