@@ -40,6 +40,21 @@ body {
   overflow: scroll;
 }
 
+.flex-center-stretch {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sync-btn {
+  margin: auto 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .add-wallet-form {
   width: 42%;
   position: relative;
@@ -82,12 +97,12 @@ body {
 
 .add-wallet-form > button {
   position: absolute;
-  right: 1%;
+  right: 2%;
   top: 50%;
   transform: translate(0%, -50%);
   background-color: transparent;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .hide {
@@ -111,6 +126,8 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  direction: rtl;
+  text-align: left;
 }
 
 .wallet-list-item > button {
