@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import toast, { Toaster } from 'react-hot-toast'
+import toast from 'react-hot-toast'
 import { getWalletFromAddress } from '../../functions/blockfrost'
 import CONSTANTS from '../../constants'
-import { Fragment } from 'react/cjs/react.production.min'
 
 const AddWallet = ({ wallets = [], dispatch }) => {
   const [input, setInput] = useState('')
@@ -23,13 +22,16 @@ const AddWallet = ({ wallets = [], dispatch }) => {
       }
 
       try {
-        const res = await getWalletFromAddress(str)
+        const {
+          data: { address, stake_address, amount },
+        } = await getWalletFromAddress(str)
+
         const payload = {
-          walletAddress: res.data.address,
-          stakeAddress: res.data.stake_address,
-          assets: res.data.amount
-            .filter((item) => item.unit.indexOf(CONSTANTS.POLICY_ID) === 0)
-            .map((item) => item.unit),
+          walletAddress: address,
+          stakeAddress: stake_address,
+          assets: amount
+            .filter(({ unit }) => unit.indexOf(CONSTANTS.POLICY_ID) === 0)
+            .map(({ unit }) => unit),
         }
 
         dispatch({ type: CONSTANTS.ADD_WALLET, payload })
@@ -53,31 +55,35 @@ const AddWallet = ({ wallets = [], dispatch }) => {
 
   const syncWallets = async () => {
     setLoading(true)
-    const syncedWallets = []
 
-    for (let i = 0; i < wallets.length; i++) {
-      const { walletAddress } = wallets[i]
+    const syncedWallets = await Promise.all(
+      wallets.map(async (item) => {
+        try {
+          const {
+            data: { address, stake_address, amount },
+          } = await getWalletFromAddress(item.walletAddress)
 
-      try {
-        const res = await getWalletFromAddress(walletAddress)
-        const payload = {
-          walletAddress: res.data.address,
-          stakeAddress: res.data.stake_address,
-          assets: res.data.amount
-            .filter((item) => item.unit.indexOf(CONSTANTS.POLICY_ID) === 0)
-            .map((item) => item.unit),
+          const payload = {
+            walletAddress: address,
+            stakeAddress: stake_address,
+            assets: amount
+              .filter(({ unit }) => unit.indexOf(CONSTANTS.POLICY_ID) === 0)
+              .map(({ unit }) => unit),
+          }
+
+          return payload
+        } catch (error) {
+          if (error?.response?.status == 403) {
+            toast.error('Blockfrost API key is maxed out today...')
+          } else {
+            toast.error('Failed to get data from the Blockchain')
+            console.error(error)
+          }
+
+          return item
         }
-
-        syncedWallets.push(payload)
-      } catch (error) {
-        if (error?.response?.status == 403) {
-          toast.error('Blockfrost API key is maxed out today...')
-        } else {
-          toast.error('Failed to get data from the Blockchain')
-          console.error(error)
-        }
-      }
-    }
+      })
+    )
 
     dispatch({ type: CONSTANTS.SET_WALLETS, payload: syncedWallets })
     setLoading(false)
@@ -90,30 +96,27 @@ const AddWallet = ({ wallets = [], dispatch }) => {
   }
 
   return (
-    <Fragment>
-      <div className='flex-center-stretch'>
-        <button className='sync-btn' onClick={syncWallets} disabled={loading}>
-          🔄
-        </button>
+    <div className='flex-center-stretch'>
+      <button className='sync-btn' onClick={syncWallets} disabled={loading}>
+        🔄
+      </button>
 
-        <form className='add-wallet-form' onSubmit={addWallet}>
-          <input
-            placeholder='Your address (addr1)'
-            type='text'
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-          />
-          <button
-            type='submit'
-            disabled={loading}
-            className={input.length ? '' : 'hide'}
-          >
-            ✅
-          </button>
-        </form>
-      </div>
-      <Toaster />
-    </Fragment>
+      <form className='add-wallet-form' onSubmit={addWallet}>
+        <input
+          placeholder='Your address (addr1)'
+          type='text'
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button
+          type='submit'
+          disabled={loading}
+          className={input.length ? '' : 'hide'}
+        >
+          ✅
+        </button>
+      </form>
+    </div>
   )
 }
 
