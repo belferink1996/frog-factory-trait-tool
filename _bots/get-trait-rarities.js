@@ -1,4 +1,5 @@
 const fs = require('fs')
+const CONSTANTS = require('../constants')
 const blockfrostJsonFile = require('../data/blockfrost')
 
 const run = async () => {
@@ -8,9 +9,11 @@ const run = async () => {
 
   try {
     for (let idx = 0; idx < populatedAssets.length; idx++) {
-      populatedAssets[idx].onchain_metadata.Attributes.forEach((str) => {
-        const [key, value] = str.split(': ')
-        
+      populatedAssets[idx].onchain_metadata.Attributes.forEach((str, i) => {
+        const [_, _value] = str.split(': ')
+        const key = CONSTANTS.TRAIT_CATEGORIES[i].toUpperCase()
+        const value = _value ?? `No ${key.toLowerCase()}`
+
         if (value) {
           const payload = {
             label: value,

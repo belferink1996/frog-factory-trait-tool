@@ -23,28 +23,28 @@ const TraitsAndAssets = ({ wallets = [] }) => {
       return
     }
 
-    item.onchain_metadata.Attributes.forEach((str) => {
-      const [category, value] = str.split(': ')
+    item.onchain_metadata.Attributes.forEach((str, idx) => {
+      const [_, _value] = str.split(': ')
+      const category = CONSTANTS.TRAIT_CATEGORIES[idx].toUpperCase()
+      const value = _value ?? `No ${category.toLowerCase()}`
 
-      if (value) {
-        const payload = {
-          label: value,
-          count: 1,
-          percent: 1 / (allAssets.length / 100),
-        }
-        const traitCategory = traits[category]
-        const traitData = traitCategory?.find((obj) => obj.label === value)
+      const payload = {
+        label: value,
+        count: 1,
+        percent: 1 / (allAssets.length / 100),
+      }
+      const traitCategory = traits[category]
+      const traitData = traitCategory?.find((obj) => obj.label === value)
 
-        if (!traitCategory) {
-          traits[category] = [payload]
-        } else if (traitData) {
-          traitData.count += 1
-          traitData.percent = traitData.count / (allAssets.length / 100)
-          traitCategory[traitCategory.findIndex((obj) => obj.label === value)] =
-            traitData
-        } else {
-          traitCategory.push(payload)
-        }
+      if (!traitCategory) {
+        traits[category] = [payload]
+      } else if (traitData) {
+        traitData.count += 1
+        traitData.percent = traitData.count / (allAssets.length / 100)
+        traitCategory[traitCategory.findIndex((obj) => obj.label === value)] =
+          traitData
+      } else {
+        traitCategory.push(payload)
       }
     })
   })
@@ -54,7 +54,7 @@ const TraitsAndAssets = ({ wallets = [] }) => {
       <div className='traits-categories'>
         {missingFromBlockfrost.length ? (
           <div className='category'>
-            <h3 className='category-title'>No data</h3>
+            <h3 className='category-title'>NO DATA</h3>
             <p className='category-item'>
               x{missingFromBlockfrost.length} Frogs not included
             </p>

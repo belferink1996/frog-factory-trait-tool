@@ -8,6 +8,17 @@ const constants = {
   SET_WALLETS: 'SET_WALLETS',
   ADD_WALLET: 'ADD_WALLET',
   DELETE_WALLET: 'DELETE_WALLET',
+
+  TRAIT_CATEGORIES: [
+    'BACKGROUND',
+    'SKIN',
+    'EYES',
+    'CLOTHES',
+    'HAT/HAIR',
+    'MOUTH',
+    'NOSE',
+    'SPOTS',
+  ],
 }
 
 module.exports = constants
