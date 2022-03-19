@@ -24,27 +24,30 @@ const TraitsAndAssets = ({ wallets = [] }) => {
     }
 
     item.onchain_metadata.Attributes.forEach((str, idx) => {
-      const [_, _value] = str.split(': ')
-      const category = CONSTANTS.TRAIT_CATEGORIES[idx].toUpperCase()
-      const value = _value ?? `No ${category.toLowerCase()}`
+      const [_category, _value] = str.split(': ')
 
-      const payload = {
-        label: value,
-        count: 1,
-        percent: 1 / (allAssets.length / 100),
-      }
-      const traitCategory = traits[category]
-      const traitData = traitCategory?.find((obj) => obj.label === value)
+      if (_value) {
+        const category = _category.toUpperCase() // CONSTANTS.TRAIT_CATEGORIES[idx].toUpperCase()
+        const value = _value.toLowerCase() // _value ?? `No ${category.toLowerCase()}`
 
-      if (!traitCategory) {
-        traits[category] = [payload]
-      } else if (traitData) {
-        traitData.count += 1
-        traitData.percent = traitData.count / (allAssets.length / 100)
-        traitCategory[traitCategory.findIndex((obj) => obj.label === value)] =
-          traitData
-      } else {
-        traitCategory.push(payload)
+        const payload = {
+          label: value,
+          count: 1,
+          percent: 1 / (allAssets.length / 100),
+        }
+        const traitCategory = traits[category]
+        const traitData = traitCategory?.find((obj) => obj.label === value)
+
+        if (!traitCategory) {
+          traits[category] = [payload]
+        } else if (traitData) {
+          traitData.count += 1
+          traitData.percent = traitData.count / (allAssets.length / 100)
+          traitCategory[traitCategory.findIndex((obj) => obj.label === value)] =
+            traitData
+        } else {
+          traitCategory.push(payload)
+        }
       }
     })
   })
