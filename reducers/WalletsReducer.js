@@ -10,7 +10,7 @@ const WalletsReducer = (state = [], action) => {
 
     case CONSTANTS.DELETE_WALLET:
       const copyState = [...state]
-      return copyState.filter((item) => item.walletAddress !== action.payload)
+      return copyState.filter((item) => item.stakeAddress !== action.payload)
 
     default:
       return state

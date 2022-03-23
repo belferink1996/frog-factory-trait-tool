@@ -1,3 +1,4 @@
-import getWalletFromAddress from './getWalletFromAddress'
+import getStakeFromWallet from './getStakeFromWallet'
+import getAssetsFromStake from './getAssetsFromStake'
 
-export { getWalletFromAddress }
+export { getStakeFromWallet, getAssetsFromStake }

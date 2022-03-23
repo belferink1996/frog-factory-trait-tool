@@ -1,84 +1,82 @@
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { getWalletFromAddress } from '../../functions/blockfrost'
+import {
+  getStakeFromWallet,
+  getAssetsFromStake,
+} from '../../functions/blockfrost'
 import CONSTANTS from '../../constants'
 
 const AddWallet = ({ wallets = [], dispatch }) => {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState('')
 
-  const addWallet = async (event) => {
-    event.preventDefault()
-    setLoading(true)
+  const addWallet = async () => {
+    const walletAddress = String(input)
 
-    const str = String(input)
+    if (walletAddress.indexOf('addr1') !== 0) {
+      toast.error('Address is invalid')
+      return
+    }
 
-    if (str.indexOf('addr1') !== 0) {
-      toast.error('This address is invalid')
-    } else {
-      if (wallets.find(({ walletAddress }) => walletAddress === str)) {
-        toast.error('This address is already added')
-        return
-      }
+    let stakeAddress = ''
 
-      try {
-        const {
-          data: { address, stake_address, amount },
-        } = await getWalletFromAddress(str)
-
-        const payload = {
-          walletAddress: address,
-          stakeAddress: stake_address,
-          assets: amount
-            .filter(({ unit }) => unit.indexOf(CONSTANTS.POLICY_ID) === 0)
-            .map(({ unit }) => unit),
-        }
-
-        dispatch({ type: CONSTANTS.ADD_WALLET, payload })
-        setInput('')
-
-        toast.success('Succesfully got data from the Blockchain')
-      } catch (error) {
-        if (error?.response?.status == 400) {
-          toast.error('This address does not exist')
-        } else if (error?.response?.status == 403) {
-          toast.error('Blockfrost API key is maxed out today...')
-        } else {
-          toast.error('Failed to get data from the Blockchain')
-          console.error(error)
-        }
+    try {
+      stakeAddress = await getStakeFromWallet(walletAddress)
+    } catch (error) {
+      if (error?.response?.status == 400) {
+        toast.error('Wallet address not found')
+      } else if (error?.response?.status == 403) {
+        toast.error('Blockfrost API key is maxed out today')
+      } else {
+        toast.error('Failed to get data from the Blockchain')
+        console.error(error)
       }
     }
 
-    setLoading(false)
+    if (!stakeAddress) {
+      toast.error('Stake address not found')
+      return
+    }
+
+    try {
+      if (wallets.find((item) => item.stakeAddress === stakeAddress)) {
+        toast.info('This stake address is already added')
+        return
+      }
+
+      const assets = await getAssetsFromStake(stakeAddress)
+      const payload = {
+        stakeAddress,
+        assets,
+      }
+
+      dispatch({ type: CONSTANTS.ADD_WALLET, payload })
+      setInput('')
+      toast.success('Succesfully got data from the Blockchain')
+    } catch (error) {
+      console.error(error)
+      toast.error(
+        `Failed to get data from the Blockchain ${error?.response?.status}`
+      )
+    }
   }
 
   const syncWallets = async () => {
-    setLoading(true)
-
     const syncedWallets = await Promise.all(
-      wallets.map(async (item) => {
+      wallets.map(async ({ stakeAddress }) => {
         try {
-          const {
-            data: { address, stake_address, amount },
-          } = await getWalletFromAddress(item.walletAddress)
-
+          const assets = await getAssetsFromStake(stakeAddress)
           const payload = {
-            walletAddress: address,
-            stakeAddress: stake_address,
-            assets: amount
-              .filter(({ unit }) => unit.indexOf(CONSTANTS.POLICY_ID) === 0)
-              .map(({ unit }) => unit),
+            stakeAddress,
+            assets,
           }
 
           return payload
         } catch (error) {
-          if (error?.response?.status == 403) {
-            toast.error('Blockfrost API key is maxed out today...')
-          } else {
-            toast.error('Failed to get data from the Blockchain')
-            console.error(error)
-          }
+          console.error(error)
+          toast.error(
+            `Failed to get data from the Blockchain ${error?.response?.status}`
+          )
 
           return item
         }
@@ -86,9 +84,20 @@ const AddWallet = ({ wallets = [], dispatch }) => {
     )
 
     dispatch({ type: CONSTANTS.SET_WALLETS, payload: syncedWallets })
-    setLoading(false)
-
     toast.success('Succesfully synced wallets with the Blockchain')
+  }
+
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    setLoading(true)
+    await addWallet()
+    setLoading(false)
+  }
+
+  const handleClickSync = async () => {
+    setLoading(true)
+    await syncWallets()
+    setLoading(false)
   }
 
   if (loading) {
@@ -97,13 +106,9 @@ const AddWallet = ({ wallets = [], dispatch }) => {
 
   return (
     <div className='flex-center-stretch'>
-      <button className='sync-btn' onClick={syncWallets} disabled={loading}>
-        🔄
-      </button>
-
-      <form className='add-wallet-form' onSubmit={addWallet}>
+      <form className='add-wallet-form' onSubmit={handleSubmit}>
         <input
-          placeholder='Your address (addr1)'
+          placeholder='Your wallet address (addr1)'
           type='text'
           value={input}
           onChange={(e) => setInput(e.target.value)}
@@ -116,6 +121,10 @@ const AddWallet = ({ wallets = [], dispatch }) => {
           ✅
         </button>
       </form>
+
+      <button className='sync-btn' onClick={handleClickSync} disabled={loading}>
+        🔄
+      </button>
     </div>
   )
 }
