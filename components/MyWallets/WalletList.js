@@ -1,4 +1,5 @@
 import CONSTANTS from '../../constants'
+import TrashIcon from '../../icons/TrashIcon'
 
 const WalletList = ({ wallets = [], dispatch }) => {
   const clickDelete = (stakeAddress) => {
@@ -13,7 +14,9 @@ const WalletList = ({ wallets = [], dispatch }) => {
         wallets.map(({ stakeAddress }) => (
           <div key={`wallet-${stakeAddress}`} className='wallet-list-item'>
             <p>{stakeAddress}</p>
-            <button onClick={() => clickDelete(stakeAddress)}>🗑️</button>
+            <button onClick={() => clickDelete(stakeAddress)}>
+              <TrashIcon fill='#750000' size='18' />
+            </button>
           </div>
         ))
       ) : (

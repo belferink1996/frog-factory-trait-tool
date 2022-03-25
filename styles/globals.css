@@ -29,6 +29,12 @@ body {
   color: var(--bright);
 }
 
+button {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
 .app {
   width: 100vw;
   height: 100vh;

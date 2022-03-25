@@ -5,6 +5,8 @@ import {
   getAssetsFromStake,
 } from '../../functions/blockfrost'
 import CONSTANTS from '../../constants'
+import SendIcon from '../../icons/SendIcon'
+import SyncIcon from '../../icons/SyncIcon'
 
 const AddWallet = ({ wallets = [], dispatch }) => {
   const [input, setInput] = useState('')
@@ -63,11 +65,11 @@ const AddWallet = ({ wallets = [], dispatch }) => {
 
   const syncWallets = async () => {
     const syncedWallets = await Promise.all(
-      wallets.map(async ({ stakeAddress }) => {
+      wallets.map(async (item) => {
         try {
-          const assets = await getAssetsFromStake(stakeAddress)
+          const assets = await getAssetsFromStake(item.stakeAddress)
           const payload = {
-            stakeAddress,
+            stakeAddress: item.stakeAddress,
             assets,
           }
 
@@ -118,12 +120,12 @@ const AddWallet = ({ wallets = [], dispatch }) => {
           disabled={loading}
           className={input.length ? '' : 'hide'}
         >
-          ✅
+          <SendIcon fill='var(--bright)' size='20' />
         </button>
       </form>
 
       <button className='sync-btn' onClick={handleClickSync} disabled={loading}>
-        🔄
+        <SyncIcon fill='var(--bright)' size='30' />
       </button>
     </div>
   )
