@@ -4,53 +4,75 @@ import blockfrostJsonFile from '../../data/blockfrost'
 import CONSTANTS from '../../constants'
 
 const TraitsAndAssets = ({ wallets = [] }) => {
-  const allAssets = wallets
+  const missingFromBlockfrost = []
+  const categories = {}
+
+  CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
+    categories[cat] = []
+  })
+
+  wallets
     .map(({ assets }) =>
-      assets.map(
-        (assetId) =>
-          blockfrostJsonFile.assets.find(({ asset }) => asset === assetId) ??
-          assetId
-      )
+      assets.map((assetId) => {
+        const foundBlockfrost = blockfrostJsonFile.assets.find(
+          ({ asset }) => asset === assetId
+        )
+
+        if (!foundBlockfrost) return assetId
+
+        const { onchain_metadata } = foundBlockfrost
+        const attributesPayload = {}
+
+        CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
+          attributesPayload[cat] = 'none'
+        })
+
+        onchain_metadata.Attributes.forEach((str) => {
+          const [_c, _v] = str.split(': ')
+          if (_c && _v) attributesPayload[_c.toUpperCase()] = _v.toLowerCase()
+        })
+
+        return {
+          ...foundBlockfrost,
+          onchain_metadata: {
+            ...foundBlockfrost.onchain_metadata,
+            Attributes: attributesPayload,
+          },
+        }
+      })
     )
     .flat()
-
-  const missingFromBlockfrost = []
-  const traits = {}
-
-  allAssets.forEach((item) => {
-    if (typeof item === 'string') {
-      missingFromBlockfrost.push(item)
-      return
-    }
-
-    item.onchain_metadata.Attributes.forEach((str, idx) => {
-      const [_category, _value] = str.split(': ')
-
-      if (_value) {
-        const category = _category.toUpperCase() // CONSTANTS.TRAIT_CATEGORIES[idx].toUpperCase()
-        const value = _value.toLowerCase() // _value ?? `No ${category.toLowerCase()}`
-
-        const payload = {
-          label: value,
-          count: 1,
-          percent: 1 / (allAssets.length / 100),
-        }
-        const traitCategory = traits[category]
-        const traitData = traitCategory?.find((obj) => obj.label === value)
-
-        if (!traitCategory) {
-          traits[category] = [payload]
-        } else if (traitData) {
-          traitData.count += 1
-          traitData.percent = traitData.count / (allAssets.length / 100)
-          traitCategory[traitCategory.findIndex((obj) => obj.label === value)] =
-            traitData
-        } else {
-          traitCategory.push(payload)
-        }
+    .forEach((item, idx, arr) => {
+      if (typeof item === 'string') {
+        missingFromBlockfrost.push(item)
+        return
       }
+
+      const allAssets = arr.length
+
+      const {
+        onchain_metadata: { Attributes },
+      } = item
+
+      Object.entries(Attributes).forEach(([category, label]) => {
+        const foundIndex = categories[category].findIndex(
+          (obj) => obj.label === label
+        )
+
+        if (foundIndex === -1) {
+          categories[category].push({
+            label,
+            count: 1,
+            percent: 1 / (allAssets / 100),
+          })
+        } else {
+          const payload = categories[category][foundIndex]
+          payload.count += 1
+          payload.percent = payload.count / (allAssets / 100)
+          categories[category][foundIndex] = payload
+        }
+      })
     })
-  })
 
   return (
     <Fragment>
@@ -80,19 +102,23 @@ const TraitsAndAssets = ({ wallets = [] }) => {
           </div>
         ) : null}
 
-        {Object.entries(traits).map(([category, values]) => (
+        {Object.entries(categories).map(([category, values]) => (
           <div key={`trait-category-${category}`} className='category'>
             <h3 className='category-title'>{category}</h3>
-            {values
-              .sort((a, b) => b.count - a.count)
-              .map(({ label, count }) => (
-                <p
-                  key={`trait-category-${category}-value-${label}`}
-                  className='category-item'
-                >
-                  x{count} {label}
-                </p>
-              ))}
+            {values.length ? (
+              values
+                .sort((a, b) => b.count - a.count)
+                .map(({ label, count }) => (
+                  <p
+                    key={`trait-category-${category}-value-${label}`}
+                    className='category-item'
+                  >
+                    x{count} {label}
+                  </p>
+                ))
+            ) : (
+              <p className='category-item'>no attributes</p>
+            )}
             <br />
           </div>
         ))}
