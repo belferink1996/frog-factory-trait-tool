@@ -1,4 +1,3 @@
-import { Children } from 'react'
 import classes from './Loader.module.css'
 
 const animationDelays = [
@@ -16,14 +15,13 @@ const Loader = () => {
   return (
     <div className={classes.root}>
       <div className={classes.loading}>
-        {Children.toArray(
-          animationDelays.map((value) => (
-            <div
-              className={classes.loaderSquare}
-              style={{ animationDelay: value }}
-            />
-          ))
-        )}
+        {animationDelays.map((value, idx) => (
+          <div
+            key={`loader-${idx}-${value}`}
+            className={classes.loaderSquare}
+            style={{ animationDelay: value }}
+          />
+        ))}
       </div>
     </div>
   )
