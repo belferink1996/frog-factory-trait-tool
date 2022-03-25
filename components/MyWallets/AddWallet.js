@@ -4,9 +4,10 @@ import {
   getStakeFromWallet,
   getAssetsFromStake,
 } from '../../functions/blockfrost'
-import CONSTANTS from '../../constants'
+import Loading from '../Loading'
 import SendIcon from '../../icons/SendIcon'
 import SyncIcon from '../../icons/SyncIcon'
+import CONSTANTS from '../../constants'
 
 const AddWallet = ({ wallets = [], dispatch }) => {
   const [input, setInput] = useState('')
@@ -91,19 +92,18 @@ const AddWallet = ({ wallets = [], dispatch }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault()
-    setLoading(true)
-    await addWallet()
-    setLoading(false)
+
+    if (!loading) {
+      setLoading(true)
+      await addWallet()
+      setLoading(false)
+    }
   }
 
   const handleClickSync = async () => {
     setLoading(true)
     await syncWallets()
     setLoading(false)
-  }
-
-  if (loading) {
-    return <div>Loading...</div>
   }
 
   return (
@@ -127,6 +127,8 @@ const AddWallet = ({ wallets = [], dispatch }) => {
       <button className='sync-btn' onClick={handleClickSync} disabled={loading}>
         <SyncIcon fill='var(--bright)' size='30' />
       </button>
+
+      {loading ? <Loading /> : null}
     </div>
   )
 }
