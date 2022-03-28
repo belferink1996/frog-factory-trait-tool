@@ -36,8 +36,7 @@ const mapWalletAttributes = (wallet) =>
   })
 
 const Traits = ({ wallets = [] }) => {
-  const missingFromBlockfrost = []
-
+  const [missingFromBlockfrost, setMissingFromBlockfrost] = useState([])
   const [categories, setCategories] = useState(() => {
     const initialState = {}
 
@@ -54,7 +53,7 @@ const Traits = ({ wallets = [] }) => {
       .flat()
       .forEach((item, idx, arr) => {
         if (typeof item === 'string') {
-          missingFromBlockfrost.push(item)
+          setMissingFromBlockfrost((prev) => [...prev, item])
           return
         }
 
