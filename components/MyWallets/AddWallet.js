@@ -8,6 +8,7 @@ import Loading from '../Loading'
 import SendIcon from '../../icons/SendIcon'
 import SyncIcon from '../../icons/SyncIcon'
 import CONSTANTS from '../../constants'
+import styles from './AddWallet.module.css'
 
 const AddWallet = ({ wallets = [], dispatch }) => {
   const [input, setInput] = useState('')
@@ -107,8 +108,8 @@ const AddWallet = ({ wallets = [], dispatch }) => {
   }
 
   return (
-    <div className='flex-center-stretch'>
-      <form className='add-wallet-form' onSubmit={handleSubmit}>
+    <div className={styles.container}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <input
           placeholder='Your wallet address (addr1)'
           type='text'
@@ -118,7 +119,7 @@ const AddWallet = ({ wallets = [], dispatch }) => {
         <button
           type='submit'
           disabled={loading}
-          className={input.length ? '' : 'hide'}
+          className={input.length ? '' : styles.hide}
         >
           <SendIcon fill='var(--bright)' size='20' />
         </button>
@@ -126,7 +127,7 @@ const AddWallet = ({ wallets = [], dispatch }) => {
 
       {wallets.length ? (
         <button
-          className='sync-btn'
+          className={styles.syncBtn}
           onClick={handleClickSync}
           disabled={loading}
         >

@@ -1,0 +1,32 @@
+.item {
+  margin: 7px 0;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--olive);
+  border-radius: 1rem;
+}
+
+.item > p {
+  flex: 1;
+  margin: 7px 7px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* direction: rtl;
+  text-align: left; */
+}
+
+.item > button {
+  margin: auto 7px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    width: 300px;
+  }
+}
