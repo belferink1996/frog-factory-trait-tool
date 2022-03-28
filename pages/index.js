@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import TraitsAndAssets from '../components/TraitsAndAssets'
+import Traits from '../components/Traits'
 const MyWallets = dynamic(() => import('../components/MyWallets'), {
   ssr: false,
 })
@@ -25,7 +25,7 @@ export default function Home() {
       <br />
 
       <MyWallets setParentState={setWallets} />
-      <TraitsAndAssets wallets={wallets} />
+      <Traits wallets={wallets} />
     </div>
   )
 }
