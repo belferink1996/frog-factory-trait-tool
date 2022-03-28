@@ -124,9 +124,15 @@ const AddWallet = ({ wallets = [], dispatch }) => {
         </button>
       </form>
 
-      <button className='sync-btn' onClick={handleClickSync} disabled={loading}>
-        <SyncIcon fill='var(--bright)' size='30' />
-      </button>
+      {wallets.length ? (
+        <button
+          className='sync-btn'
+          onClick={handleClickSync}
+          disabled={loading}
+        >
+          <SyncIcon fill='var(--bright)' size='30' />
+        </button>
+      ) : null}
 
       {loading ? <Loading /> : null}
     </div>
