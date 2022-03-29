@@ -1,22 +1,15 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import { useState } from 'react'
-import Traits from '../components/Traits'
-const MyWallets = dynamic(() => import('../components/MyWallets'), {
+const MyPortfolio = dynamic(() => import('../components/MyPortfolio'), {
   ssr: false,
 })
 
 export default function Home() {
-  const [wallets, setWallets] = useState([])
-
   return (
     <div className='app'>
       <Head>
         <title>FF-TT</title>
-        <meta
-          name='description'
-          content='Frog Factory community tool designed to track asset traits'
-        />
+        <meta name='description' content='Frog Factory community tool designed to track asset traits' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -24,8 +17,7 @@ export default function Home() {
       <h1>Frog Factory - Trait Tool</h1>
       <br />
 
-      <MyWallets setParentState={setWallets} />
-      <Traits wallets={wallets} />
+      <MyPortfolio />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-export default function Modal({ closeModal, children, width, transparent }) {
+export default function Modal({ onClickClose, children, width, transparent }) {
   const [opacity, setOpacity] = useState(0)
   useEffect(() => setOpacity(1), [])
 
@@ -33,14 +33,14 @@ export default function Modal({ closeModal, children, width, transparent }) {
   return (
     <div style={bgStyles}>
       <div style={modalStyles}>
-        {closeModal ? <CloseButton closeModal={closeModal} /> : null}
+        {onClickClose ? <CloseButton onClickClose={onClickClose} /> : null}
         {children}
       </div>
     </div>
   )
 }
 
-function CloseButton({ closeModal }) {
+function CloseButton({ onClickClose }) {
   const ref = useRef(null)
 
   const closeStyles = {
@@ -59,19 +59,11 @@ function CloseButton({ closeModal }) {
     cursor: 'pointer',
   }
 
-  const doHoverStyles = () =>
-    (ref.current.style.backgroundColor = 'var(--bright)')
-  const undoHoverStyles = () =>
-    (ref.current.style.backgroundColor = 'var(--frog)')
+  const doHoverStyles = () => (ref.current.style.backgroundColor = 'var(--bright)')
+  const undoHoverStyles = () => (ref.current.style.backgroundColor = 'var(--frog)')
 
   return (
-    <button
-      ref={ref}
-      style={closeStyles}
-      onClick={closeModal}
-      onMouseEnter={doHoverStyles}
-      onMouseLeave={undoHoverStyles}
-    >
+    <button ref={ref} style={closeStyles} onClick={onClickClose} onMouseEnter={doHoverStyles} onMouseLeave={undoHoverStyles}>
       &times;
     </button>
   )

@@ -8,6 +8,27 @@ const POLICY_ID = CONSTANTS.POLICY_ID
 const BLOCKFROST_API = CONSTANTS.BLOCKFROST_API
 const BLOCKFROST_KEY = CONSTANTS.BLOCKFROST_KEY
 
+const formatAssetAttributes = ({ onchain_metadata, ...asset }) => {
+  const payload = {}
+
+  CONSTANTS.TRAIT_CATEGORIES.forEach((_c) => {
+    payload[_c] = 'none'
+  })
+
+  onchain_metadata.Attributes.forEach((str) => {
+    const [_c, _l] = str.split(': ')
+    if (_c && _l) payload[_c.toUpperCase()] = _l.toLowerCase()
+  })
+
+  return {
+    ...asset,
+    onchain_metadata: {
+      ...onchain_metadata,
+      Attributes: payload,
+    },
+  }
+}
+
 const run = async () => {
   const policyAssets = []
   const populatedAssets = blockfrostJsonFile?.assets ?? []
@@ -17,14 +38,11 @@ const run = async () => {
     for (let page = 1; true; page++) {
       console.log(`querying page number ${page}`)
 
-      const { data: policyAssetsPagination } = await axios.get(
-        `${BLOCKFROST_API}/assets/policy/${POLICY_ID}?page=${page}`,
-        {
-          headers: {
-            project_id: BLOCKFROST_KEY,
-          },
-        }
-      )
+      const { data: policyAssetsPagination } = await axios.get(`${BLOCKFROST_API}/assets/policy/${POLICY_ID}?page=${page}`, {
+        headers: {
+          project_id: BLOCKFROST_KEY,
+        },
+      })
 
       if (!policyAssetsPagination.length) break
       policyAssetsPagination.forEach((item) => policyAssets.push(item))
@@ -40,26 +58,20 @@ const run = async () => {
         if (!populatedAssets.find((item) => item.asset === asset)) {
           console.log(`idx: ${idx}, populating new asset ${asset}`)
 
-          const { data: populatedAsset } = await axios.get(
-            `${BLOCKFROST_API}/assets/${asset}`,
-            {
-              headers: {
-                project_id: BLOCKFROST_KEY,
-              },
-            }
-          )
+          const { data: populatedAsset } = await axios.get(`${BLOCKFROST_API}/assets/${asset}`, {
+            headers: {
+              project_id: BLOCKFROST_KEY,
+            },
+          })
 
-          populatedAssets.push(populatedAsset)
+          populatedAssets.push(formatAssetAttributes(populatedAsset))
         }
       }
     }
 
     console.log('sorting assets by #ID')
     populatedAssets.sort((a, b) => {
-      return (
-        Number(a.onchain_metadata.name.replace('Frog Factory #', '')) -
-        Number(b.onchain_metadata.name.replace('Frog Factory #', ''))
-      )
+      return Number(a.onchain_metadata.name.replace('Frog Factory #', '')) - Number(b.onchain_metadata.name.replace('Frog Factory #', ''))
     })
 
     console.log(`saving ${populatedAssets.length} assets to JSON file`)

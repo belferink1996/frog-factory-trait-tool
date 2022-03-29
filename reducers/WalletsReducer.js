@@ -1,6 +1,6 @@
 import CONSTANTS from '../constants'
 
-const WalletsReducer = (state = [], action) => {
+const walletsReducer = (state = [], action) => {
   switch (action.type) {
     case CONSTANTS.SET_WALLETS:
       return action.payload
@@ -17,4 +17,4 @@ const WalletsReducer = (state = [], action) => {
   }
 }
 
-export default WalletsReducer
+export default walletsReducer
