@@ -1,9 +1,9 @@
 import Modal from '../Modal'
 import Loader from './Loader'
 
-const Loading = () => {
+const Loading = ({ open }) => {
   return (
-    <Modal transparent>
+    <Modal open={open} transparent>
       <Loader />
     </Modal>
   )

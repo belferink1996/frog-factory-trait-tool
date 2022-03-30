@@ -6,7 +6,7 @@ const MyPortfolio = dynamic(() => import('../components/MyPortfolio'), {
 
 export default function Home() {
   return (
-    <div className='app'>
+    <div className='home'>
       <Head>
         <title>FF-TT</title>
         <meta name='description' content='Frog Factory community tool designed to track asset traits' />

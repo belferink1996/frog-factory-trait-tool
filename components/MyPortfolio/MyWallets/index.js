@@ -10,7 +10,7 @@ const MyWallets = () => {
   const { wallets, addWallet, deleteWallet, syncWallets } = useWallets()
 
   const [input, setInput] = useState('')
-  const [loading, setLoading] = useState('')
+  const [loading, setLoading] = useState(false)
 
   const handleSubmit = async (event) => {
     event.preventDefault()
@@ -47,7 +47,7 @@ const MyWallets = () => {
           </button>
         ) : null}
 
-        {loading ? <Loading /> : null}
+        <Loading open={loading} />
       </div>
 
       <br />

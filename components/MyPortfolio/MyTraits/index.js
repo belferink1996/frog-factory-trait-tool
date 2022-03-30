@@ -1,13 +1,14 @@
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useState } from 'react'
 import { useWallets } from '../../../contexts/WalletsContext'
+import getImageFromIPFS from '../../../functions/getImageFromIPFS'
+import Modal from '../../Modal'
+import AssetCard from '../../AssetCard'
 import CaretDown from '../../../icons/CaretDown'
 import CaretUp from '../../../icons/CaretUp'
-import CONSTANTS from '../../../constants'
 import styles from './MyTraits.module.css'
 
 const MyTraits = () => {
-  const { wallets, noDataFrogs, traitComponents, toggleTraitComponent } = useWallets()
-
+  const { wallets, dataFrogs, noDataFrogs, traitComponents, toggleTraitComponent } = useWallets()
   const [selectedTrait, setSelectedTrait] = useState({ category: '', label: '' })
 
   const clickTrait = (_c, _l) => {
@@ -71,6 +72,26 @@ const MyTraits = () => {
           </div>
         ) : null}
       </div>
+
+      <Modal
+        title={`${selectedTrait.category}: ${selectedTrait.label}`}
+        open={Boolean(selectedTrait.category && selectedTrait.label)}
+        onClose={() => clickTrait('', '')}
+      >
+        <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'center', justifyContent: 'center' }}>
+          {dataFrogs.map((frog) =>
+            frog.onchain_metadata.Attributes[selectedTrait.category] === selectedTrait.label ? (
+              <AssetCard
+                key={`frog-${frog.asset}`}
+                name={frog.onchain_metadata.name}
+                imageSrc={getImageFromIPFS(frog.onchain_metadata.image.join(''))}
+                itemUrl={`https://pool.pm/${frog.fingerprint}`}
+                spanArray={Object.entries(frog.onchain_metadata.Attributes).map(([_c, _l]) => `${_c}: ${_l}`)}
+              />
+            ) : null
+          )}
+        </div>
+      </Modal>
     </Fragment>
   )
 }

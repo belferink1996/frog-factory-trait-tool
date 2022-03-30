@@ -33,8 +33,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  /* cursor: pointer; */
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .trait:hover {

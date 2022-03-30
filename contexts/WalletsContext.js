@@ -118,6 +118,7 @@ export function WalletsProvider({ children }) {
     toast.success('Succesfully synced wallets with the Blockchain')
   }
 
+  const [dataFrogs, setDataFrogs] = useState([])
   const [noDataFrogs, setNoDataFrogs] = useState([])
   const [traitComponents, setTraitComponents] = useState(() => {
     const initialState = {}
@@ -132,14 +133,15 @@ export function WalletsProvider({ children }) {
   useEffect(() => {
     wallets.forEach((wallet) => {
       wallet.assets.forEach((assetId, idx, arr) => {
-        const bloackfrostAsset = blockfrostJsonFile.assets.find(({ asset }) => asset === assetId)
+        const blockfrostAsset = blockfrostJsonFile.assets.find(({ asset }) => asset === assetId)
 
-        if (!bloackfrostAsset) {
+        if (!blockfrostAsset) {
           setNoDataFrogs((prev) => [...prev, fromHex(assetId.replace(CONSTANTS.POLICY_ID, ''))])
           return
         }
 
-        Object.entries(bloackfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
+        setDataFrogs((prev) => [...prev, blockfrostAsset])
+        Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
           const newState = { ...traitComponents }
           const foundTraitIndex = newState[_c].traits.findIndex((_t) => _t.label === _l)
 
@@ -177,6 +179,7 @@ export function WalletsProvider({ children }) {
     <WalletsContext.Provider
       value={{
         wallets,
+        dataFrogs,
         noDataFrogs,
         traitComponents,
         addWallet,
