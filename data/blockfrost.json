@@ -1,7 +1,7 @@
 {
-  "_wen": 1648575220546,
+  "_wen": 1648639902985,
   "policyId": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
-  "count": 2470,
+  "count": 2559,
   "assets": [
     {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030303033",
@@ -525,6 +525,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "the verse"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030303739",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030303739",
+      "fingerprint": "asset1pe4gu6tmcf0vq0uu322js5fk2rh4dyvkaraedx",
+      "quantity": "1",
+      "initial_mint_tx_hash": "65da362c0d7e3afa774295d3b467c034e330938abd3f39d48b2c0dd180b27433",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00079",
+        "image": ["ipfs://bafybeie", "xn7zbr5p3wzn2qa6zray6qeyuryprjjeclt4khg6voscds5p7ge"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "yellow orb",
+          "SKIN": "blood red",
+          "EYES": "none",
+          "CLOTHES": "bow and arrow tie",
+          "HAT/HAIR": "red hawk",
+          "MOUTH": "snake",
+          "NOSE": "none",
+          "SPOTS": "hush flower"
         }
       }
     },
@@ -1204,6 +1229,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030313538",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030313538",
+      "fingerprint": "asset1u4kldj68n5x50d8qe8mqmhr8x0g8c0ve7zz7fe",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4c93cb88dfc049ab3d22f4a2d89fa370fab8d53c018c22531b357f8cb1d162bf",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00158",
+        "image": ["ipfs://bafybeif", "jffzfdvrjxy45mkk5m5lr7lnhacij3vydw6afii34cpemri5vdu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "red hex frog",
+          "EYES": "purple haze",
+          "CLOTHES": "tiger tat",
+          "HAT/HAIR": "none",
+          "MOUTH": "braces",
+          "NOSE": "cola",
+          "SPOTS": "easter egg"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030313630",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793030313630",
@@ -1375,6 +1425,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "blue leather"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030313930",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030313930",
+      "fingerprint": "asset175dl0ygaf79jznr6367nl3p07h3l7d6x92xd6n",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d8a82df1197d1b5a9552af0ecd9ba034538fdc9b14a6ffdc28388b6f7ace3b0e",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00190",
+        "image": ["ipfs://bafybeia", "jgwd77zwaohulw7x6ejfniqtkjsp3gbyxghwg5oapdavdetpmce"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "kevin green",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "chefs hat",
+          "MOUTH": "lollipop",
+          "NOSE": "cola",
+          "SPOTS": "wb cup"
         }
       }
     },
@@ -1875,6 +1950,31 @@
           "MOUTH": "none",
           "NOSE": "clown nose",
           "SPOTS": "orange sweater"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030323630",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030323630",
+      "fingerprint": "asset1298nd5rzv8y3y6td3ywmrzeg8wraye5rfgsevl",
+      "quantity": "1",
+      "initial_mint_tx_hash": "0d8e5edb3524ddff74eca3e707f2e29e0ee47e2d55941ec68496d86678e8df28",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00260",
+        "image": ["ipfs://bafybeia", "46blacmdkbv4o22eucc5svggvghmflocsgaav4qpiadeg4lg23u"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "level 2",
+          "SKIN": "sparkles",
+          "EYES": "none",
+          "CLOTHES": "clown suit",
+          "HAT/HAIR": "baseball hat",
+          "MOUTH": "2022 stitches",
+          "NOSE": "clown nose",
+          "SPOTS": "pinky spots"
         }
       }
     },
@@ -2854,6 +2954,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030343231",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030343231",
+      "fingerprint": "asset1cx4jgw9sv73fgluhjp0sacqz0qq7caqall8l98",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b5c726ab39436bbbb2b62471cd14794ff42c9a96d35fb85452431b1585288096",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00421",
+        "image": ["ipfs://bafybeib", "r4dilzp5fdo6rsrk3dterkcd4asxqe4uhilyjlw43okona52xtu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "white skull paper",
+          "SKIN": "kevin yellow",
+          "EYES": "night man",
+          "CLOTHES": "leather jacket",
+          "HAT/HAIR": "red hawk",
+          "MOUTH": "goatee",
+          "NOSE": "dragonfly",
+          "SPOTS": "van hush"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030343232",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793030343232",
@@ -3525,6 +3650,31 @@
           "MOUTH": "trad dagger",
           "NOSE": "none",
           "SPOTS": "pink feline"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030353237",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030353237",
+      "fingerprint": "asset1hunu8qkkwxawjgu6dk26mhpp45jpc342judh57",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4fd361940a38c67140f0de3e53cfaea58fb3bf4b4f2364141fd4931254f64787",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00527",
+        "image": ["ipfs://bafybeie", "ygr5ttayej4y7feb5m5i2dfzr7djm673opu73cl4vygqn4qzd7q"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple amoeba-min",
+          "SKIN": "cyan leather",
+          "EYES": "monacle",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "none",
+          "NOSE": "dart",
+          "SPOTS": "green gold"
         }
       }
     },
@@ -4904,6 +5054,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030373037",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030373037",
+      "fingerprint": "asset1s404geaera507a2xsu29hfmdwnsgv8wnqwqnda",
+      "quantity": "1",
+      "initial_mint_tx_hash": "65da362c0d7e3afa774295d3b467c034e330938abd3f39d48b2c0dd180b27433",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00707",
+        "image": ["ipfs://bafybeig", "wpefpk6uk66ikoigfzi5emqoaxhy6vjv3vlpnsl7b6kp2bwbj4y"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sundae swap",
+          "SKIN": "midnight leather",
+          "EYES": "mud",
+          "CLOTHES": "life jacket",
+          "HAT/HAIR": "mullet",
+          "MOUTH": "gold sharp tooth",
+          "NOSE": "none",
+          "SPOTS": "flesh spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030373038",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793030373038",
@@ -5450,6 +5625,31 @@
           "MOUTH": "toothpick",
           "NOSE": "none",
           "SPOTS": "green leather"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030373639",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030373639",
+      "fingerprint": "asset1t4qshjcx59sh2twmqc9jz84lrtcpugkdl08gj0",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8d1f2723672d49c9497385a6d3c165a7ebd46f18a87a4cd5c657f8279f542dfb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00769",
+        "image": ["ipfs://bafybeid", "mk4nyrph645kl7luzirk5f6niqx3hrhlaxg4f27zwch42bzqiee"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "white skull paper",
+          "SKIN": "albino",
+          "EYES": "red tree frog",
+          "CLOTHES": "singlet",
+          "HAT/HAIR": "red bandana",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "at night spots"
         }
       }
     },
@@ -6254,6 +6454,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030383938",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030383938",
+      "fingerprint": "asset16gasu9wf20zu0m4a2r68g8h4xya73t6qz4e5l7",
+      "quantity": "1",
+      "initial_mint_tx_hash": "34003d06f0884ac552c0a005090b490ff402f91d54edd0b8878e187743378ae0",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00898",
+        "image": ["ipfs://bafybeig", "pbs7fe6i2maiss2od3nhc5ivam7n36emg7rxnkwmkc4ao4krsyy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "mellowgold",
+          "EYES": "diamond eyes",
+          "CLOTHES": "blue overalls",
+          "HAT/HAIR": "golf cap",
+          "MOUTH": "glass pipe",
+          "NOSE": "dragonfly",
+          "SPOTS": "scandanavian leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030393032",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793030393032",
@@ -6479,6 +6704,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030393338",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030393338",
+      "fingerprint": "asset1c43u2af3488z7vv6exuqufslwwdr4zgg97mzcv",
+      "quantity": "1",
+      "initial_mint_tx_hash": "df60ade086644edde9518b336331ed60e59d0aa1afd87db4f7f658c369c95117",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00938",
+        "image": ["ipfs://bafybeig", "phs27ftvzqzscyke7el4my7z2teb4oxavmlj6sxodyuina6vk5e"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "psycodelic",
+          "EYES": "smiley eyes",
+          "CLOTHES": "hush boi swag jacket",
+          "HAT/HAIR": "none",
+          "MOUTH": "jay",
+          "NOSE": "bull horn",
+          "SPOTS": "blue feline"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030393434",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793030393434",
@@ -6650,6 +6900,31 @@
           "MOUTH": "green toungue",
           "NOSE": "none",
           "SPOTS": "frog spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793030393737",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793030393737",
+      "fingerprint": "asset1vl4srg4zvjj777rmyfpfr3qyt0vt6clah64c6u",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8ccd73e31f1df539f2c43bad34f01d69ee08bda4c95bf6a3681ba0785dd5e584",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #00977",
+        "image": ["ipfs://bafybeif", "ybapgq4khypzx4fd24jiyoohl5h5zaajudqk3klxgorzsj66w44"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "aqua water",
+          "SKIN": "kevin purple",
+          "EYES": "mask purple",
+          "CLOTHES": "singlet",
+          "HAT/HAIR": "none",
+          "MOUTH": "pink toungue",
+          "NOSE": "none",
+          "SPOTS": "flesh spots"
         }
       }
     },
@@ -7129,6 +7404,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031303735",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031303735",
+      "fingerprint": "asset12q3asfvsgtmfrj62pf9fx0lhdt5k932pek8kne",
+      "quantity": "1",
+      "initial_mint_tx_hash": "6750b32c1f58ec05631ad56d1cd4a0178b9b1f66b05ca23c0ec913da675ee880",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01075",
+        "image": ["ipfs://bafybeid", "iyjyhinth33v5zye44u523qxww4x4f5y2eif3zrrkdc57k2vuea"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "yellow hex blood",
+          "SKIN": "kevin blue",
+          "EYES": "kelidescope",
+          "CLOTHES": "brown overalls",
+          "HAT/HAIR": "clown hair",
+          "MOUTH": "vamp teeth",
+          "NOSE": "clown nose",
+          "SPOTS": "marshmellow"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031303739",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031303739",
@@ -7375,6 +7675,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "yeliis spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031313134",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031313134",
+      "fingerprint": "asset1xr7fefugjys5j5s8ttjxal7ephktgspg35lq8g",
+      "quantity": "1",
+      "initial_mint_tx_hash": "122dc212e23501fda4aa3d0ba02d9f1fb97a9a7dd5ef021882d9bf99018b3d44",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01114",
+        "image": ["ipfs://bafybeia", "6ctuholxy4rwlgeeehsmuypx4ppree3gfddxolt4rbyidd6prlm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sundae swap",
+          "SKIN": "pink matrix",
+          "EYES": "steam p. mask",
+          "CLOTHES": "none",
+          "HAT/HAIR": "brain hat",
+          "MOUTH": "gnar teeth",
+          "NOSE": "bone",
+          "SPOTS": "hush red black"
         }
       }
     },
@@ -8154,6 +8479,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323339",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031323339",
+      "fingerprint": "asset1s97k567mzrzku3vpy4vas8zfxhvm3nr0ahtjks",
+      "quantity": "1",
+      "initial_mint_tx_hash": "2d8aff779503991fba88266d8d163131c9b2389fe91951d67d3dd5425f3c01d7",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01239",
+        "image": ["ipfs://bafybeic", "b76427bv3nqtmic4airqzodzyckbopu6isafbzc6jqkymz5m6gu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "level 2",
+          "SKIN": "caramel",
+          "EYES": "red beams",
+          "CLOTHES": "pink illusion",
+          "HAT/HAIR": "tinfoil hat",
+          "MOUTH": "none",
+          "NOSE": "black widow",
+          "SPOTS": "yellow sweater"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323430",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031323430",
@@ -8350,6 +8700,31 @@
           "MOUTH": "none",
           "NOSE": "dual gold hoop",
           "SPOTS": "blue rust"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323631",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031323631",
+      "fingerprint": "asset1htcvf3v9dgw55fg205tnuxxe2ylvrwe3lmk0c2",
+      "quantity": "1",
+      "initial_mint_tx_hash": "20694b7d4d913d96a3a5fe0d395e6a06fa8cc256c85d432d0c9ed31f976e8874",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01261",
+        "image": ["ipfs://bafybeib", "rusqlmtxl65wthyqx3po6i2hbg72bqahaqpus4ytydmbj6gpp3e"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "aqua water",
+          "SKIN": "green woodgrain",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "trojan helmet",
+          "MOUTH": "braces",
+          "NOSE": "clown nose",
+          "SPOTS": "blue leather"
         }
       }
     },
@@ -8654,6 +9029,56 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323934",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031323934",
+      "fingerprint": "asset1zhlerngcd9d3c0l79ysax4u9n5plf5lqy7drtm",
+      "quantity": "1",
+      "initial_mint_tx_hash": "122dc212e23501fda4aa3d0ba02d9f1fb97a9a7dd5ef021882d9bf99018b3d44",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01294",
+        "image": ["ipfs://bafybeie", "x4nhfki3stwb3ylwgwrfkr7ap3vaia5xrmufji4zyik4ktvjq7q"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "gold burst",
+          "SKIN": "kevin blue",
+          "EYES": "pink thread eyes",
+          "CLOTHES": "doc oranges",
+          "HAT/HAIR": "pony tail",
+          "MOUTH": "buck toothless",
+          "NOSE": "none",
+          "SPOTS": "pink feline"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323936",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031323936",
+      "fingerprint": "asset1sx9s6hgrss2mkzywmevmz0f6j5jxx4we69rfvr",
+      "quantity": "1",
+      "initial_mint_tx_hash": "163d490021baef267e5199fb768732e68a6c2d100c24054069b86c942e6d6062",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01296",
+        "image": ["ipfs://bafybeid", "pmjm5ab4rntjonhhcggabso7z6zicyz26tluplfrazxmh4wg2hy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "fol hex-min",
+          "SKIN": "cloudy snow",
+          "EYES": "jeffs eye",
+          "CLOTHES": "cosplayer",
+          "HAT/HAIR": "blue top hair",
+          "MOUTH": "drool",
+          "NOSE": "none",
+          "SPOTS": "green rust"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031323939",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031323939",
@@ -8800,6 +9225,31 @@
           "MOUTH": "whistle",
           "NOSE": "none",
           "SPOTS": "incredible h"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031333138",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031333138",
+      "fingerprint": "asset1smfnsszultcxkepdhymxhavltz2hj5586r6pqk",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4f8909de979d3cd0f6f6c60972701ed0f02c6f8501eb97c2d560a8aadcaa29de",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01318",
+        "image": ["ipfs://bafybeif", "isdtpnwpvtyiohflitovv2jfzywykahj2s6cbqtvtaacs3sjaiq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "fol hex-min",
+          "SKIN": "dark woodgrain",
+          "EYES": "none",
+          "CLOTHES": "rubber ducky",
+          "HAT/HAIR": "purple ranchero",
+          "MOUTH": "none",
+          "NOSE": "bone",
+          "SPOTS": "easter egg"
         }
       }
     },
@@ -9025,6 +9475,31 @@
           "MOUTH": "2022 stitches",
           "NOSE": "dragonfly",
           "SPOTS": "hush flower"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031333536",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031333536",
+      "fingerprint": "asset15quy49847cdq0pgq0scz3utlj08hmvtwls3kng",
+      "quantity": "1",
+      "initial_mint_tx_hash": "0d8e5edb3524ddff74eca3e707f2e29e0ee47e2d55941ec68496d86678e8df28",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01356",
+        "image": ["ipfs://bafybeib", "73p4cfvbwfgtmxknicjsdoa2w6wzn7zqgr2ovxm2hv6almvfcoy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "kevin green",
+          "EYES": "red beams",
+          "CLOTHES": "lk shirt",
+          "HAT/HAIR": "none",
+          "MOUTH": "green toungue",
+          "NOSE": "none",
+          "SPOTS": "hush candy"
         }
       }
     },
@@ -9579,6 +10054,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031343532",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031343532",
+      "fingerprint": "asset1pzkghcgxwvfzkdfdej5u8v7slrjpfgqksfdt4j",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d8a82df1197d1b5a9552af0ecd9ba034538fdc9b14a6ffdc28388b6f7ace3b0e",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01452",
+        "image": ["ipfs://bafybeie", "q4tuzhg3zrk3afx3232m5kpkfxtu24ndp5kq52jeu4o2feo3u24"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral wall",
+          "SKIN": "kevin d. tan. png",
+          "EYES": "none",
+          "CLOTHES": "soundcloud",
+          "HAT/HAIR": "little frog",
+          "MOUTH": "lollipop",
+          "NOSE": "dragonfly",
+          "SPOTS": "hush orange"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031343537",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031343537",
@@ -10104,6 +10604,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031353137",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031353137",
+      "fingerprint": "asset12u48dkzr2f0w0expfac7qgwdypkdkg6t4vargt",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4dce2d9e03b47540b932e39fb77fda7843cd2d4cc23f02669f24b214cfde7ee1",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01517",
+        "image": ["ipfs://bafybeie", "u4oiea7fgycbc45fgal542d43jp2onwsbhgtbmssv2ddd4fq5ma"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "gold burst",
+          "SKIN": "green marble",
+          "EYES": "mask orange",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "wheat",
+          "NOSE": "dragonfly",
+          "SPOTS": "hulk"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031353238",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031353238",
@@ -10354,6 +10879,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031353831",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031353831",
+      "fingerprint": "asset1pvckgh2nx9662jtn8urqjts4dlx3m44y3lq3yd",
+      "quantity": "1",
+      "initial_mint_tx_hash": "9a6b5aa828016a87d35f813c9db296b731971c1358325a223ebb365d87ac3c17",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01581",
+        "image": ["ipfs://bafybeih", "6qxg6hltwuhixzyeyoigig4rdul6v7huvrys45wxakpvegdsavy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "gold burst",
+          "SKIN": "notacool frog",
+          "EYES": "clear eyes",
+          "CLOTHES": "pink illusion",
+          "HAT/HAIR": "none",
+          "MOUTH": "green toungue",
+          "NOSE": "clown nose",
+          "SPOTS": "red splatter"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031353835",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031353835",
@@ -10450,6 +11000,31 @@
           "MOUTH": "brruptth",
           "NOSE": "clown nose",
           "SPOTS": "hush camo"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031363132",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031363132",
+      "fingerprint": "asset17xvr3582khwgxn3jpcymfqlqv5pas25n2ky5fw",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d40aff4197ae89dcc9738ab5d5d74c3ace62d5779263ef03db39b6393d47f8b9",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01612",
+        "image": ["ipfs://bafybeib", "hwatd4v6ua6bwvoiajvmztntbm64jn3sz7xxvghg5ioi3dbadsm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "red woodgrain",
+          "EYES": "none",
+          "CLOTHES": "ff arm tattoo",
+          "HAT/HAIR": "striped ranchero",
+          "MOUTH": "dual ring grin",
+          "NOSE": "none",
+          "SPOTS": "b and g spots"
         }
       }
     },
@@ -10729,6 +11304,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031363437",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031363437",
+      "fingerprint": "asset14pfsg66h9qpcjvnl58x2mynzfmvlj6nx87e0wk",
+      "quantity": "1",
+      "initial_mint_tx_hash": "122dc212e23501fda4aa3d0ba02d9f1fb97a9a7dd5ef021882d9bf99018b3d44",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01647",
+        "image": ["ipfs://bafybeia", "zopjomfmplwr7nwdjgsggk6bhbfbqxgimqugj4q3fylmtygpxpm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "gold burst",
+          "SKIN": "aqua teal",
+          "EYES": "none",
+          "CLOTHES": "dragon armor",
+          "HAT/HAIR": "birthday. hat",
+          "MOUTH": "vamp teeth",
+          "NOSE": "crying turtle",
+          "SPOTS": "blue rust"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031363439",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793031363439",
@@ -10775,6 +11375,31 @@
           "MOUTH": "buck tooth",
           "NOSE": "dart",
           "SPOTS": "green dot spot"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031363630",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031363630",
+      "fingerprint": "asset1gd0jfdw47zg37atj8k5rukh9r2mvm3tc22wg4t",
+      "quantity": "1",
+      "initial_mint_tx_hash": "6b1bc686db6efe36e1fe404f1198f9d2933a79b0e1b8bff04b55de42894f4f4d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01660",
+        "image": ["ipfs://bafybeif", "3byb5kgcgo4wkgg5nbvsdb256ia5jc2hzdvuglpzsijbu7vywhm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "night fence",
+          "SKIN": "purple galaxy",
+          "EYES": "diamond eyes",
+          "CLOTHES": "prison vintage",
+          "HAT/HAIR": "baseball hat",
+          "MOUTH": "none",
+          "NOSE": "dart",
+          "SPOTS": "rust"
         }
       }
     },
@@ -11325,6 +11950,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "70s spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031373535",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031373535",
+      "fingerprint": "asset12d6e7rys75t2h73tyhjhuuujlk7zw3mpzj36wl",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4f8909de979d3cd0f6f6c60972701ed0f02c6f8501eb97c2d560a8aadcaa29de",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01755",
+        "image": ["ipfs://bafybeig", "6jgfgbyklqj6su6tukvbvhh3ubcp6gnlsahshbz4txb5s2g4cnu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "brick",
+          "EYES": "red tree frog",
+          "CLOTHES": "rusty cyborg",
+          "HAT/HAIR": "blue top hair",
+          "MOUTH": "pch",
+          "NOSE": "clown nose",
+          "SPOTS": "s stain spots"
         }
       }
     },
@@ -12050,6 +12700,31 @@
           "MOUTH": "fish hook",
           "NOSE": "snot bubble",
           "SPOTS": "orange fur"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793031383639",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793031383639",
+      "fingerprint": "asset1ml4szgv2gd79j7f65cdx9zq4hmuvzwlrcax78g",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7ea245bf655cb12704624ca7563fe86584ead2ff301cf2615f2329fe634e2b93",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #01869",
+        "image": ["ipfs://bafybeia", "upqw2f24lerljqo44y2ds7tpypl76njbxyynwe3xa3asttwuy4y"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "blue orb",
+          "SKIN": "midnight leather",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "rx grin",
+          "NOSE": "dragonfly",
+          "SPOTS": "fol hush"
         }
       }
     },
@@ -13654,6 +14329,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032313430",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032313430",
+      "fingerprint": "asset1nsz3shwssjj30wexwhe2eq90eeuxwr4myp625w",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8d1f2723672d49c9497385a6d3c165a7ebd46f18a87a4cd5c657f8279f542dfb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02140",
+        "image": ["ipfs://bafybeid", "pbr2qvqg45l3vhvnpgp27aeqfawxfnrbqlbm6lmcvtjxssjgn3u"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple orb-min",
+          "SKIN": "phil green",
+          "EYES": "lord of the eye",
+          "CLOTHES": "none",
+          "HAT/HAIR": "striped ranchero",
+          "MOUTH": "none",
+          "NOSE": "dual gold hoop",
+          "SPOTS": "purple leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032313437",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793032313437",
@@ -14654,6 +15354,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032333335",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032333335",
+      "fingerprint": "asset1hswnds9tuvg3ry62r5zuf55s5rqe65aq2d6up3",
+      "quantity": "1",
+      "initial_mint_tx_hash": "f17cbcbf50ba70764e6eba23f7834e5bfd95577e6f5cce129403c6ea45208762",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02335",
+        "image": ["ipfs://bafybeib", "fnfobvxyd3mwfeh5frgb4lkgz4g2p47hcrxkkigvmczwnrf5h4u"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple star",
+          "SKIN": "cyan frog",
+          "EYES": "sabre eyes",
+          "CLOTHES": "none",
+          "HAT/HAIR": "viking helmet",
+          "MOUTH": "snake",
+          "NOSE": "none",
+          "SPOTS": "camo spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032333338",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793032333338",
@@ -15054,6 +15779,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032343131",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032343131",
+      "fingerprint": "asset16h3kuypf6e7993637hzsaqg3kyy83awp8e6j5a",
+      "quantity": "1",
+      "initial_mint_tx_hash": "0d8e5edb3524ddff74eca3e707f2e29e0ee47e2d55941ec68496d86678e8df28",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02411",
+        "image": ["ipfs://bafybeic", "2n66srqlrijub26enwxm63phvdh7lolxo75pizq25ts576iea2e"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple amoeba-min",
+          "SKIN": "albino",
+          "EYES": "cow eye",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "whistle",
+          "NOSE": "bull horn",
+          "SPOTS": "green fur"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032343133",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793032343133",
@@ -15175,6 +15925,31 @@
           "MOUTH": "pink toungue",
           "NOSE": "bone",
           "SPOTS": "fire shine"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032343332",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032343332",
+      "fingerprint": "asset19swup7dlqx9lhpjdaqud6h0ex7nclj8aajqdcm",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b5c726ab39436bbbb2b62471cd14794ff42c9a96d35fb85452431b1585288096",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02432",
+        "image": ["ipfs://bafybeih", "zeghnj3ucunhj2fd5hkofrxxxvoa3r525h7hork5gvghyhefyfm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral frost-min",
+          "SKIN": "brick",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "rx grin",
+          "NOSE": "bull horn",
+          "SPOTS": "parker spots"
         }
       }
     },
@@ -17104,6 +17879,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032363936",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032363936",
+      "fingerprint": "asset15dsu76tygxz8cy90r58jlzjhkxlrjdxrzzxs3e",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7d6d8ad9cc603cc3ac935cb45d8287b4cc1397365878a58e851ea989e3a85e89",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02696",
+        "image": ["ipfs://bafybeic", "6tisfp4llyilu34nrbdibgxvjx7h2yxvmvar6fbn4bo6dl2tiiu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "yellow orb",
+          "SKIN": "brown shard",
+          "EYES": "cardano newspapaer",
+          "CLOTHES": "karate gi",
+          "HAT/HAIR": "none",
+          "MOUTH": "bubble gum",
+          "NOSE": "none",
+          "SPOTS": "denim"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032373036",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793032373036",
@@ -17479,6 +18279,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032373538",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032373538",
+      "fingerprint": "asset1dfjx07l7j5gje7yuhl8vpu7hxg0w6wqvl9d83s",
+      "quantity": "1",
+      "initial_mint_tx_hash": "65da362c0d7e3afa774295d3b467c034e330938abd3f39d48b2c0dd180b27433",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02758",
+        "image": ["ipfs://bafybeif", "prtl4jyoaj2l6fcznus3f3dh5bwzlbkqlgwdttqrozemrezsssq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "brick",
+          "EYES": "red cyborg",
+          "CLOTHES": "hoody",
+          "HAT/HAIR": "none",
+          "MOUTH": "toothpick",
+          "NOSE": "none",
+          "SPOTS": "hush candy"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032373632",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793032373632",
@@ -17725,6 +18550,56 @@
           "MOUTH": "whistle",
           "NOSE": "none",
           "SPOTS": "the verse"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032383032",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032383032",
+      "fingerprint": "asset1utyry3jkhtt59g0vchyqacfdarkppy6zl93vk9",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b178c0214bbf1ce32777b9a431d81e66420931acb31d5dc7055b722426a9793c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02802",
+        "image": ["ipfs://bafybeia", "2f2vgb3k2tduzeow4dygmglz5hclylu2bd7gr7tidb4ayy6pbe4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "artic-min",
+          "SKIN": "mellowgold",
+          "EYES": "diamond eyes",
+          "CLOTHES": "ff arm tattoo",
+          "HAT/HAIR": "silver crown",
+          "MOUTH": "platinum grill",
+          "NOSE": "crying turtle",
+          "SPOTS": "viking egg"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032383038",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032383038",
+      "fingerprint": "asset19nuju3l0epw8nwnvxcrudxmsprx4cx2xsasy2l",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b45bc141c179562294c6b3d158253003a9f8dfee01faae02394f74912c472ad4",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02808",
+        "image": ["ipfs://bafybeig", "4ecy7wmryuhymnb67z2vh6y6wroy56afczb2jzcgfpgyu3x7fhe"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "aqua water",
+          "SKIN": "blue snow",
+          "EYES": "purple haze",
+          "CLOTHES": "striat jacket",
+          "HAT/HAIR": "striped ranchero",
+          "MOUTH": "rx grin",
+          "NOSE": "none",
+          "SPOTS": "superspots"
         }
       }
     },
@@ -18075,6 +18950,31 @@
           "MOUTH": "cigarette",
           "NOSE": "dragonfly",
           "SPOTS": "easter egg"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793032383634",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793032383634",
+      "fingerprint": "asset1ax7x7qwgcy5xu0l3le7lx8h6e3qn5rkw5axfzp",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8d1f2723672d49c9497385a6d3c165a7ebd46f18a87a4cd5c657f8279f542dfb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #02864",
+        "image": ["ipfs://bafybeib", "z5kkomkw6knnlkgp4didzxfyijiqrsddqby5yal27oifmiiedtm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green fade",
+          "SKIN": "blue shard",
+          "EYES": "mask orange",
+          "CLOTHES": "dudes sweater",
+          "HAT/HAIR": "golf cap",
+          "MOUTH": "glass pipe",
+          "NOSE": "none",
+          "SPOTS": "s stain spots"
         }
       }
     },
@@ -19154,6 +20054,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303431",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033303431",
+      "fingerprint": "asset1392kqjfxrq3uafrvhwv0yvfzqcc456387cnd9j",
+      "quantity": "1",
+      "initial_mint_tx_hash": "122dc212e23501fda4aa3d0ba02d9f1fb97a9a7dd5ef021882d9bf99018b3d44",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03041",
+        "image": ["ipfs://bafybeif", "dyw33nj26xwytxj2aaool3ox546o4org2k3lluxznhwq4lkvrom"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple orb-min",
+          "SKIN": "kevin d. tan. png",
+          "EYES": "none",
+          "CLOTHES": "tank top",
+          "HAT/HAIR": "frogenstein",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "hush flower"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303435",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793033303435",
@@ -19354,6 +20279,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303731",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033303731",
+      "fingerprint": "asset1w0jn7kzlmgl87q9hfwus8hxxgt2tsnmfc8fhss",
+      "quantity": "1",
+      "initial_mint_tx_hash": "c89c58da8ce02578801a77ab84196a20cd5adad52bb1a329d36ecbfb680ad15d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03071",
+        "image": ["ipfs://bafybeic", "lh7atxqahfs6lx7liczgzpsz25w5nvck657fkj5ak35ufnwtruq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple orb-min",
+          "SKIN": "blood red",
+          "EYES": "pink circles",
+          "CLOTHES": "life jacket",
+          "HAT/HAIR": "hermes",
+          "MOUTH": "none",
+          "NOSE": "silver bull ring",
+          "SPOTS": "hush camo"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303732",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793033303732",
@@ -19429,6 +20379,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303830",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033303830",
+      "fingerprint": "asset1933zqxdun54pkfjjh0s3g0zvrtxsq4qnhd0d5j",
+      "quantity": "1",
+      "initial_mint_tx_hash": "9a6b5aa828016a87d35f813c9db296b731971c1358325a223ebb365d87ac3c17",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03080",
+        "image": ["ipfs://bafybeih", "xppacgrz3v4ch3dpvvq6pbsfk225dxyyunmz2dfcztqh7pdemry"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple star",
+          "SKIN": "neon blue",
+          "EYES": "kelidescope",
+          "CLOTHES": "none",
+          "HAT/HAIR": "viking helmet",
+          "MOUTH": "cams teeth",
+          "NOSE": "crying turtle",
+          "SPOTS": "incredible h"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303832",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793033303832",
@@ -19450,6 +20425,31 @@
           "MOUTH": "pink toungue",
           "NOSE": "bull horn",
           "SPOTS": "smiley spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033303834",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033303834",
+      "fingerprint": "asset1ruzhu5qelhqeelfwnvxlf7zfrl59u4p6xt7xmf",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d4a92ac0eed02404daf55aabf5c18e1fe527a8adf1246498451ada961e8efc1a",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03084",
+        "image": ["ipfs://bafybeie", "xezr5vcsqjr4sonihkffmedq3bq2n5v3cx5i2ryzgevxohjtetu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "aqua water",
+          "SKIN": "spinach frog",
+          "EYES": "black shades",
+          "CLOTHES": "gold chain",
+          "HAT/HAIR": "brown ranchero",
+          "MOUTH": "none",
+          "NOSE": "clown nose",
+          "SPOTS": "frog spots"
         }
       }
     },
@@ -21004,6 +22004,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033333234",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033333234",
+      "fingerprint": "asset1kvlh63ut4f8t7g9cq2akn7rtfyftmw4akqe5h0",
+      "quantity": "1",
+      "initial_mint_tx_hash": "38775256f705783d0d48742adfdcf1ec86a69118622dfeb62da260c27156e57c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03324",
+        "image": ["ipfs://bafybeid", "zvsbypm3s3t35famgfb5h6rrdwyp3h6olib26v6sq3ee4itmyqm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "yellow woodgrain",
+          "EYES": "cardano white",
+          "CLOTHES": "dragon armor",
+          "HAT/HAIR": "blue top hair",
+          "MOUTH": "none",
+          "NOSE": "cola",
+          "SPOTS": "wb cup"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033333236",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793033333236",
@@ -21200,6 +22225,31 @@
           "MOUTH": "trad dagger",
           "NOSE": "cola",
           "SPOTS": "hush flower"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033333436",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033333436",
+      "fingerprint": "asset1hntwe8nfsyahqarnd0efa68x0sca0x76pgt4kj",
+      "quantity": "1",
+      "initial_mint_tx_hash": "87844e1cc34522847222fe82194ab8eda685000e8872aa477effa166f585fc60",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03346",
+        "image": ["ipfs://bafybeic", "2f3raje7ms4u4ybaz3m3vvsbnfa7a3fqzqhfidnws3wi2hiues4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "light trippy",
+          "EYES": "cardano newspapaer",
+          "CLOTHES": "ultimate warrior",
+          "HAT/HAIR": "blue top hair",
+          "MOUTH": "rx grin",
+          "NOSE": "silver bull ring",
+          "SPOTS": "pink feline"
         }
       }
     },
@@ -22300,6 +23350,31 @@
           "MOUTH": "jay",
           "NOSE": "none",
           "SPOTS": "pink sequin"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033353331",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033353331",
+      "fingerprint": "asset1jhpt26vqr5ej7mv4v8h0kn0jmfj7d0kha3sw2p",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4f8909de979d3cd0f6f6c60972701ed0f02c6f8501eb97c2d560a8aadcaa29de",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03531",
+        "image": ["ipfs://bafybeia", "yps7mctoxsveydirtvz2sqemo5yjuvl4gxofnozdi3wg43ucul4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple orb-min",
+          "SKIN": "kevin purple",
+          "EYES": "diamond eyes",
+          "CLOTHES": "cosplayer",
+          "HAT/HAIR": "unicorn horn",
+          "MOUTH": "cigarette",
+          "NOSE": "silver bull ring",
+          "SPOTS": "denim"
         }
       }
     },
@@ -23754,6 +24829,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033373831",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793033373831",
+      "fingerprint": "asset1v8226c4umm5py3ptvarqmgasfxdn3d0lvs9f9d",
+      "quantity": "1",
+      "initial_mint_tx_hash": "267863861439ab9df5304e4ca166aa1617f954ff31bfcf36de09e98ffa944bea",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #03781",
+        "image": ["ipfs://bafybeid", "6mw5nrdofzz34g5vbzz4c47a3cvomquvtwab3mkl6prrudsdzo4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green specs",
+          "SKIN": "bloodbath",
+          "EYES": "mask orange",
+          "CLOTHES": "rubber ducky",
+          "HAT/HAIR": "none",
+          "MOUTH": "none",
+          "NOSE": "dual gold hoop",
+          "SPOTS": "easter egg"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793033373838",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793033373838",
@@ -25154,6 +26254,56 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034303230",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034303230",
+      "fingerprint": "asset1mjz0fhq2n4tcdhzvemzldmsv7hrdtnje7h5nhu",
+      "quantity": "1",
+      "initial_mint_tx_hash": "033f06fc59c5542c45cacb7e282bc8e08795624235d5448ddfaa1c959d23ddf7",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04020",
+        "image": ["ipfs://bafybeid", "o3ld277bcztcsfvjyy5l4xlxd6wewy3mk2g4bgjldhvhrnyunu4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "peach",
+          "EYES": "sabre eyes",
+          "CLOTHES": "bow and arrow tie",
+          "HAT/HAIR": "brain hat",
+          "MOUTH": "whistle",
+          "NOSE": "clown nose",
+          "SPOTS": "green dot spot"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034303234",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034303234",
+      "fingerprint": "asset1ha9x580uqeaw4xvw0qu37glw4fnaft433rqegv",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8d1f2723672d49c9497385a6d3c165a7ebd46f18a87a4cd5c657f8279f542dfb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04024",
+        "image": ["ipfs://bafybeie", "25igt3oiwqt4xabu7zz2txi4yz64vhupg3ilbfpyy6cbpz4bd4y"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "white skull paper",
+          "SKIN": "kevin blue",
+          "EYES": "none",
+          "CLOTHES": "dr. coat",
+          "HAT/HAIR": "viking helmet",
+          "MOUTH": "rose",
+          "NOSE": "bull horn",
+          "SPOTS": "hamburger spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034303236",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793034303236",
@@ -25175,6 +26325,31 @@
           "MOUTH": "none",
           "NOSE": "dual gold hoop",
           "SPOTS": "camo spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034303330",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034303330",
+      "fingerprint": "asset1vxr3w2kps0xgjp73eleck5xu6vrfw8v8slswp0",
+      "quantity": "1",
+      "initial_mint_tx_hash": "163d490021baef267e5199fb768732e68a6c2d100c24054069b86c942e6d6062",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04030",
+        "image": ["ipfs://bafybeie", "yuyjkesqm4s3d4urx7rngi2faemthupln5mkxvw5vraijounqn4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "artic-min",
+          "SKIN": "green marine",
+          "EYES": "smiley eyes",
+          "CLOTHES": "bow and arrow tie",
+          "HAT/HAIR": "none",
+          "MOUTH": "stitched mouth",
+          "NOSE": "none",
+          "SPOTS": "molten hex"
         }
       }
     },
@@ -25754,6 +26929,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034313332",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034313332",
+      "fingerprint": "asset1arpsf92xc2d93da9zfyxxhsq9zf7xxc949hv9z",
+      "quantity": "1",
+      "initial_mint_tx_hash": "260bcdedb4ed5077a500d58b3d88a404d222d047127dbbf74b08aeea8fe294e6",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04132",
+        "image": ["ipfs://bafybeia", "qwqd7lvji7s2vbrcfq4x6bdkchfrolrzontdydm5ncc75yfmpkq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "artic-min",
+          "SKIN": "stone frog",
+          "EYES": "eye dart",
+          "CLOTHES": "tiger tat supreme",
+          "HAT/HAIR": "baseball hat",
+          "MOUTH": "trad dagger",
+          "NOSE": "none",
+          "SPOTS": "leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034313334",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793034313334",
@@ -25825,6 +27025,31 @@
           "MOUTH": "2022 stitches",
           "NOSE": "clown nose",
           "SPOTS": "swirl spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034313438",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034313438",
+      "fingerprint": "asset1lw2qmhjh92shtje0fcnxnu7ptu677uw8m62248",
+      "quantity": "1",
+      "initial_mint_tx_hash": "0a7929aeea91bcc3172578363bb2b649b06f3fd3cf9c1e4c8ffe05c7f46c115b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04148",
+        "image": ["ipfs://bafybeib", "t45zhxj6jut64lecn5wt6mfehscpfum5qxfihprbtznwognjnrq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral frost-min",
+          "SKIN": "cloudy snow",
+          "EYES": "pink plasma",
+          "CLOTHES": "grandmas sweater",
+          "HAT/HAIR": "rasberry",
+          "MOUTH": "whistle",
+          "NOSE": "clown nose",
+          "SPOTS": "hush camo"
         }
       }
     },
@@ -26225,6 +27450,31 @@
           "MOUTH": "none",
           "NOSE": "dual gold hoop",
           "SPOTS": "superspots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034323137",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034323137",
+      "fingerprint": "asset1w3q295f5uv33zntpmswmf4k3u9zy0cj66akryj",
+      "quantity": "1",
+      "initial_mint_tx_hash": "1ab88374e59c505e67ccfd43a99aa11da90603a695398ac4f71a53f991dab199",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04217",
+        "image": ["ipfs://bafybeie", "xpqq6atpxuomgnfcucxrtmtlsgqj3e5ksp5od35ybyl7vz22swu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green specs",
+          "SKIN": "chocholate skin",
+          "EYES": "none",
+          "CLOTHES": "rubber ducky",
+          "HAT/HAIR": "viking helmet",
+          "MOUTH": "popped bubble gum",
+          "NOSE": "dual spike",
+          "SPOTS": "b and g spots"
         }
       }
     },
@@ -29054,6 +30304,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034363434",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034363434",
+      "fingerprint": "asset16jtrn4wwmy9pf9leszd0enea57e88ct60dup6l",
+      "quantity": "1",
+      "initial_mint_tx_hash": "20694b7d4d913d96a3a5fe0d395e6a06fa8cc256c85d432d0c9ed31f976e8874",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04644",
+        "image": ["ipfs://bafybeig", "clanbdrphgchpnvavoyqlw2awot6uqeyixhfysfnxpnigt7w7ru"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple amoeba-min",
+          "SKIN": "neon pink",
+          "EYES": "none",
+          "CLOTHES": "rusty cyborg",
+          "HAT/HAIR": "rasberry",
+          "MOUTH": "flame toungue",
+          "NOSE": "none",
+          "SPOTS": "red splatter"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034363437",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793034363437",
@@ -29829,6 +31104,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034373633",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034373633",
+      "fingerprint": "asset1levr8pva3mhgcdqqmm7ujgw2myrvudd6cufmjl",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7aad8a373b4ac85c0934fcd1e241862c56932394f7641c8bcb97a0af02d6434b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04763",
+        "image": ["ipfs://bafybeie", "fexwoinl2uytek6gp2z2sonwlczk6ze6dfxdk52bagas4iczcp4"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral frost-min",
+          "SKIN": "kevin teal",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "blue top hair",
+          "MOUTH": "green toungue",
+          "NOSE": "none",
+          "SPOTS": "camo spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034373637",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793034373637",
@@ -29899,6 +31199,31 @@
           "HAT/HAIR": "none",
           "MOUTH": "vamp teeth",
           "NOSE": "silver bull ring",
+          "SPOTS": "van hush"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793034373732",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793034373732",
+      "fingerprint": "asset1z93r9hwwqj54p560tl9sr3xx6va5q5exmj2ync",
+      "quantity": "1",
+      "initial_mint_tx_hash": "5c9f4d2b99b6b221bb9e044c4abb0d41485deeacc7e54635207422fb71eb573b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #04772",
+        "image": ["ipfs://bafybeie", "lgbyqscfs4bcboyqapzk77b27rbweo4hbdvhsgqhcjv46gfci6e"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "illuminated",
+          "EYES": "steam p. mask",
+          "CLOTHES": "spiked collar",
+          "HAT/HAIR": "chefs hat",
+          "MOUTH": "none",
+          "NOSE": "clown nose",
           "SPOTS": "van hush"
         }
       }
@@ -31879,6 +33204,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793035303633",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793035303633",
+      "fingerprint": "asset1pg8xu37y86j6g3sr58ax8zmylrh5qnyklzvyhj",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4c93cb88dfc049ab3d22f4a2d89fa370fab8d53c018c22531b357f8cb1d162bf",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #05063",
+        "image": ["ipfs://bafybeid", "7xw2scerfcokwo7tuymqhhsrsgwzj4msit4qwgplw7aaycu633q"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green fade",
+          "SKIN": "ob green",
+          "EYES": "none",
+          "CLOTHES": "none",
+          "HAT/HAIR": "blindside beenie",
+          "MOUTH": "cigarette",
+          "NOSE": "none",
+          "SPOTS": "at night spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793035303639",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793035303639",
@@ -32500,6 +33850,31 @@
           "MOUTH": "braces",
           "NOSE": "dual gold hoop",
           "SPOTS": "denim"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793035313436",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793035313436",
+      "fingerprint": "asset1kgjjewj833hrmq654tpsdcydal6jew6rxyrryl",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d8a82df1197d1b5a9552af0ecd9ba034538fdc9b14a6ffdc28388b6f7ace3b0e",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #05146",
+        "image": ["ipfs://bafybeid", "hw7xy24xhzvkoj2uwke6wx7ostnps2r47awrrjsqu7y74gi6cue"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "golden charcoal",
+          "SKIN": "kevin blue",
+          "EYES": "none",
+          "CLOTHES": "grandmas sweater",
+          "HAT/HAIR": "hatchet",
+          "MOUTH": "2022 stitches",
+          "NOSE": "none",
+          "SPOTS": "blue sweater"
         }
       }
     },
@@ -36754,6 +38129,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793035383835",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793035383835",
+      "fingerprint": "asset126e3xu0uvz7p7xjvfrq46h30ql7hqezgp8evj8",
+      "quantity": "1",
+      "initial_mint_tx_hash": "163d490021baef267e5199fb768732e68a6c2d100c24054069b86c942e6d6062",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #05885",
+        "image": ["ipfs://bafybeie", "4l7ggcosssoeylhxrkw7xpqtit7fcrrcrxaw4bafqj6xjyl3eue"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "kevin yellow",
+          "EYES": "none",
+          "CLOTHES": "dudes sweater",
+          "HAT/HAIR": "brain hat",
+          "MOUTH": "none",
+          "NOSE": "bone",
+          "SPOTS": "hush flower"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793035383932",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793035383932",
@@ -38254,6 +39654,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036313335",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036313335",
+      "fingerprint": "asset1cufqev7mx0fxls27zry9ay6l4qjjwj23t9gzqf",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4e2775339ada9468efdd24316280eb70c6cdf935b622655b7995ae73a392a2be",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06135",
+        "image": ["ipfs://bafybeia", "t2izyebp3ueewu5qcy3vjrn5c5nom4fd7gawiozfmiefpvhqk3e"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "bloody wall",
+          "SKIN": "red velvet",
+          "EYES": "blue eyed bsby",
+          "CLOTHES": "singlet",
+          "HAT/HAIR": "halo",
+          "MOUTH": "green toungue",
+          "NOSE": "dual gold hoop",
+          "SPOTS": "peppermint patty"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036313337",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793036313337",
@@ -38275,6 +39700,31 @@
           "MOUTH": "buck toothless",
           "NOSE": "bull horn",
           "SPOTS": "marshmellow"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036313430",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036313430",
+      "fingerprint": "asset1tet2d56fnr9hv9kmfmc8x5nt20ngj42rx9dpmg",
+      "quantity": "1",
+      "initial_mint_tx_hash": "f6beebb3d5ac63604fc25c22728c7d26b1f8561bb7f81f09287d7ae1b91e97af",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06140",
+        "image": ["ipfs://bafybeib", "64vdzzt6wlbaqyd27cshf4cvzolbs5eke3yjfnsx52w56dprwii"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "night fence",
+          "SKIN": "albino",
+          "EYES": "none",
+          "CLOTHES": "blue overalls",
+          "HAT/HAIR": "striped ranchero",
+          "MOUTH": "golden dagger",
+          "NOSE": "bull horn",
+          "SPOTS": "green gold"
         }
       }
     },
@@ -39325,6 +40775,31 @@
           "MOUTH": "pink toungue",
           "NOSE": "cola",
           "SPOTS": "pink sequin"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036333331",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036333331",
+      "fingerprint": "asset1ky3lxxsytkv8e582lfr625uumz7cp78ltzh5uz",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d8a82df1197d1b5a9552af0ecd9ba034538fdc9b14a6ffdc28388b6f7ace3b0e",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06331",
+        "image": ["ipfs://bafybeia", "u2vwhmuhkfohkqhlhxiyqmu4uj4ro22cwbb3h56vrpon64pxkfu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple orb-min",
+          "SKIN": "frost",
+          "EYES": "cyclops",
+          "CLOTHES": "priest suit",
+          "HAT/HAIR": "rasberry",
+          "MOUTH": "trad dagger",
+          "NOSE": "none",
+          "SPOTS": "blue rust"
         }
       }
     },
@@ -40504,6 +41979,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036353231",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036353231",
+      "fingerprint": "asset1npfze434yz94tvgjq2vxu7c2eef4u7kpt02hp5",
+      "quantity": "1",
+      "initial_mint_tx_hash": "163d490021baef267e5199fb768732e68a6c2d100c24054069b86c942e6d6062",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06521",
+        "image": ["ipfs://bafybeig", "2tpys4wg33ywiaec7fgoppfby65apd5afccyooa2fyof7wzrqwa"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green fade",
+          "SKIN": "kevin green",
+          "EYES": "lord of the eye",
+          "CLOTHES": "hippy shirt",
+          "HAT/HAIR": "viking helmet",
+          "MOUTH": "popped bubble gum",
+          "NOSE": "snot bubble",
+          "SPOTS": "yellow sweater"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036353338",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793036353338",
@@ -40954,6 +42454,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036363130",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036363130",
+      "fingerprint": "asset16q6smu3790wkxjkzk5ahk2nz66rnqfxvnlwrxx",
+      "quantity": "1",
+      "initial_mint_tx_hash": "38775256f705783d0d48742adfdcf1ec86a69118622dfeb62da260c27156e57c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06610",
+        "image": ["ipfs://bafybeie", "kfdayeqzralu6biksxxxnvlpgkj6o2ragreno6fancavstpyeaq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "blue orb",
+          "SKIN": "purple water",
+          "EYES": "none",
+          "CLOTHES": "muscle suit",
+          "HAT/HAIR": "blue halo",
+          "MOUTH": "rose",
+          "NOSE": "none",
+          "SPOTS": "leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036363131",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793036363131",
@@ -41200,6 +42725,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "superspots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036363432",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036363432",
+      "fingerprint": "asset1y0zwtxct9hjzyy6mwjhy38yteme789ss5ugr87",
+      "quantity": "1",
+      "initial_mint_tx_hash": "2edb936c28888f03955ae22944d44f65d274d3529adb1416b6f9e0c5cb06f725",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06642",
+        "image": ["ipfs://bafybeic", "45ytob42zqqmoheazyixsk7ebxas2vhyxorlewlrsyxsejsunjy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "yellow orb",
+          "SKIN": "green speckled skin",
+          "EYES": "eye dart",
+          "CLOTHES": "spiked collar",
+          "HAT/HAIR": "none",
+          "MOUTH": "buck tooth",
+          "NOSE": "bull horn",
+          "SPOTS": "yellow sweater"
         }
       }
     },
@@ -41704,6 +43254,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036373137",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036373137",
+      "fingerprint": "asset1nsehezthmj3cqhdlajsh0znq43j73t3a02262t",
+      "quantity": "1",
+      "initial_mint_tx_hash": "c89c58da8ce02578801a77ab84196a20cd5adad52bb1a329d36ecbfb680ad15d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06717",
+        "image": ["ipfs://bafybeie", "2t7e7bxpgxphtlfubxzr7xsyc2rgf3af6smi4y4l7u24beirjeu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "night fence",
+          "SKIN": "dark trippy",
+          "EYES": "purple hexx",
+          "CLOTHES": "karate gi",
+          "HAT/HAIR": "none",
+          "MOUTH": "dual ring grin",
+          "NOSE": "dragonfly",
+          "SPOTS": "gear spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036373138",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793036373138",
@@ -41775,6 +43350,31 @@
           "MOUTH": "none",
           "NOSE": "bull horn",
           "SPOTS": "frog spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036373331",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036373331",
+      "fingerprint": "asset1ddllvldyf2usyje2uzcydmdnah4xafc9he6z5y",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7aad8a373b4ac85c0934fcd1e241862c56932394f7641c8bcb97a0af02d6434b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06731",
+        "image": ["ipfs://bafybeig", "sgmkofmsfnae6pxhp2ec5zntr2cbus52d3zui6zw5xqepf6e4dm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "kevin d. purple",
+          "EYES": "levar shades",
+          "CLOTHES": "pelt jacket",
+          "HAT/HAIR": "tinfoil hat",
+          "MOUTH": "trad dagger",
+          "NOSE": "silver bull ring",
+          "SPOTS": "bloody egg"
         }
       }
     },
@@ -42775,6 +44375,31 @@
           "MOUTH": "stitched mouth",
           "NOSE": "cola",
           "SPOTS": "s stain spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793036393231",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793036393231",
+      "fingerprint": "asset1m938cas0a2xar8jkt7ffe9drrncchgh6aprgls",
+      "quantity": "1",
+      "initial_mint_tx_hash": "23356df14b408b8277886187fde9c4d01c67ead741a98a0c0ffdc413c4df4346",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #06921",
+        "image": ["ipfs://bafybeif", "dim4igks6c25h5ja22e5xr6fq76k2dvt34ev2jhnjyjeyemnesy"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green specs",
+          "SKIN": "red woodgrain",
+          "EYES": "mask orange",
+          "CLOTHES": "pink illusion",
+          "HAT/HAIR": "none",
+          "MOUTH": "pch",
+          "NOSE": "bone",
+          "SPOTS": "orange glow"
         }
       }
     },
@@ -44104,6 +45729,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037313036",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037313036",
+      "fingerprint": "asset1p9p34008vdamnjqmeztdyh44xttq9wtj3qxgtd",
+      "quantity": "1",
+      "initial_mint_tx_hash": "dc2e3ecec0ae49fbc874b47ffaf8f0fe43ed4c8c5f4ec03b07b43269fcf9d9cb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07106",
+        "image": ["ipfs://bafybeic", "ypndiaaa3tfxo2emyboudjhj7dy76z4givdcpc25ycp4jboqbre"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green amoeba-min",
+          "SKIN": "neon blue",
+          "EYES": "purple haze",
+          "CLOTHES": "grandmas sweater",
+          "HAT/HAIR": "darts",
+          "MOUTH": "trad dagger",
+          "NOSE": "bone",
+          "SPOTS": "blue rust"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037313131",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037313131",
@@ -44175,6 +45825,31 @@
           "MOUTH": "stitched mouth",
           "NOSE": "none",
           "SPOTS": "rust"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037313230",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037313230",
+      "fingerprint": "asset18tev8t3dja73huhu7e4thrrzvnn40qk5ht5qk5",
+      "quantity": "1",
+      "initial_mint_tx_hash": "c89c58da8ce02578801a77ab84196a20cd5adad52bb1a329d36ecbfb680ad15d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07120",
+        "image": ["ipfs://bafybeih", "6d7nading2634o3wuc2bvnm64zdsm4cv5y2rrlfz7mzknnu3qja"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "blue snow",
+          "SKIN": "kevin yellow",
+          "EYES": "clear eyes",
+          "CLOTHES": "none",
+          "HAT/HAIR": "fire hawk",
+          "MOUTH": "cigarette",
+          "NOSE": "dual gold hoop",
+          "SPOTS": "green gold"
         }
       }
     },
@@ -44750,6 +46425,31 @@
           "MOUTH": "golden dagger",
           "NOSE": "crying turtle",
           "SPOTS": "green dot spot"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037323034",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037323034",
+      "fingerprint": "asset1c6xde4a4a3y8a4u7xv27v0kq3xsvyjxq55rxuz",
+      "quantity": "1",
+      "initial_mint_tx_hash": "65da362c0d7e3afa774295d3b467c034e330938abd3f39d48b2c0dd180b27433",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07204",
+        "image": ["ipfs://bafybeih", "oigoiexs5rid2t5kyaexipbmp45j265zmi4cxnv5ajnm6nv4yii"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "rust",
+          "EYES": "kelidescope",
+          "CLOTHES": "bow and arrow tie",
+          "HAT/HAIR": "helmet netted",
+          "MOUTH": "goatee",
+          "NOSE": "none",
+          "SPOTS": "pink feline"
         }
       }
     },
@@ -45854,6 +47554,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037333835",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037333835",
+      "fingerprint": "asset1r8se2qp8jptalpt8f3ae9dtevrmg87g9c33l2v",
+      "quantity": "1",
+      "initial_mint_tx_hash": "bb9e89b9a3782b9d263abcb2936aaa3e7e6de18dbbb37e12f5b8928de6b91055",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07385",
+        "image": ["ipfs://bafybeia", "7x4pirmwvanewc3o3ohkic6uwtvqcnkfrwnecjguuuosi77ewpu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "blue snow",
+          "SKIN": "neon pink",
+          "EYES": "monacle",
+          "CLOTHES": "hush boi swag jacket",
+          "HAT/HAIR": "teal hawk",
+          "MOUTH": "brruptth",
+          "NOSE": "snot bubble",
+          "SPOTS": "superspots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037333836",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037333836",
@@ -46704,6 +48429,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037353438",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037353438",
+      "fingerprint": "asset1laz7vxd9z2crw7x5qpnxq4j9e77avlfw0nq5x3",
+      "quantity": "1",
+      "initial_mint_tx_hash": "6750b32c1f58ec05631ad56d1cd4a0178b9b1f66b05ca23c0ec913da675ee880",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07548",
+        "image": ["ipfs://bafybeib", "viv4fgbjxjk2i72cfogn366lvseedmitpttukf6m3ftqybhhwqu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green fade",
+          "SKIN": "kevin green",
+          "EYES": "none",
+          "CLOTHES": "muscle suit",
+          "HAT/HAIR": "none",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "green dot spot"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037353532",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037353532",
@@ -46750,6 +48500,31 @@
           "MOUTH": "none",
           "NOSE": "bone",
           "SPOTS": "purple galaxy"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037353630",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037353630",
+      "fingerprint": "asset1md4nwpm0wu7x3yxl0ly49x2awed60zymexfupx",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7aad8a373b4ac85c0934fcd1e241862c56932394f7641c8bcb97a0af02d6434b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07560",
+        "image": ["ipfs://bafybeig", "vy5zwow7ibefcpi63pqlm2xn35fvgrcf2f2cgytbfdmvnerqv2y"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "slime water",
+          "EYES": "cardano white",
+          "CLOTHES": "soundcloud",
+          "HAT/HAIR": "brains",
+          "MOUTH": "buck toothless",
+          "NOSE": "bull horn",
+          "SPOTS": "molten hex"
         }
       }
     },
@@ -48104,6 +49879,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037373734",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037373734",
+      "fingerprint": "asset19mcdkmwpvn7ywnhexpahgg6vwgqrku2vth2y5k",
+      "quantity": "1",
+      "initial_mint_tx_hash": "38775256f705783d0d48742adfdcf1ec86a69118622dfeb62da260c27156e57c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07774",
+        "image": ["ipfs://bafybeic", "uuhi5flzmrz7bd7j3l7iqsk57djir5u6fh4up7ze7ulcv3qojtq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral wall",
+          "SKIN": "cloudy snow",
+          "EYES": "blue eyed bsby",
+          "CLOTHES": "none",
+          "HAT/HAIR": "none",
+          "MOUTH": "flame toungue",
+          "NOSE": "dragonfly",
+          "SPOTS": "polkadot spot"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037373738",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037373738",
@@ -48375,6 +50175,31 @@
           "MOUTH": "golden dagger",
           "NOSE": "none",
           "SPOTS": "bloody egg"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037383138",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037383138",
+      "fingerprint": "asset1na2uafx2x7jv08d0sjrj54866wh9sxuyazj9jp",
+      "quantity": "1",
+      "initial_mint_tx_hash": "c89c58da8ce02578801a77ab84196a20cd5adad52bb1a329d36ecbfb680ad15d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07818",
+        "image": ["ipfs://bafybeig", "w3eaacyfetppqwmakhvdhkcrrjsrdcqy7drzreq7hoiiw4ko57u"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sundae swap",
+          "SKIN": "illuminated",
+          "EYES": "kelidescope",
+          "CLOTHES": "koi boi swag jacket",
+          "HAT/HAIR": "horns",
+          "MOUTH": "red toungue",
+          "NOSE": "bone",
+          "SPOTS": "green rust"
         }
       }
     },
@@ -48929,6 +50754,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037383831",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037383831",
+      "fingerprint": "asset14nv9qsp4p6jx3u7nwl0tjw6yw83dya2lpld347",
+      "quantity": "1",
+      "initial_mint_tx_hash": "65da362c0d7e3afa774295d3b467c034e330938abd3f39d48b2c0dd180b27433",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07881",
+        "image": ["ipfs://bafybeic", "v3szj5bq5fbqnjrl6bz7z2iyydvaaj66jquboqc2gueofazuzum"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "spinach frog",
+          "EYES": "cardano white",
+          "CLOTHES": "none",
+          "HAT/HAIR": "little frog",
+          "MOUTH": "golden dagger",
+          "NOSE": "cola",
+          "SPOTS": "green o spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037383835",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037383835",
@@ -49454,6 +51304,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037393632",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793037393632",
+      "fingerprint": "asset1juc9ujln9g290ed34l7u5q92d2d8fnclvh5qsq",
+      "quantity": "1",
+      "initial_mint_tx_hash": "d8a82df1197d1b5a9552af0ecd9ba034538fdc9b14a6ffdc28388b6f7ace3b0e",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #07962",
+        "image": ["ipfs://bafybeib", "lgel3tc4sz7xdhou5mfjoi34m43wxeg3nb4vu6klpieyl3jhkde"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "green specs",
+          "SKIN": "green pup",
+          "EYES": "red tree frog",
+          "CLOTHES": "baseball jersey",
+          "HAT/HAIR": "none",
+          "MOUTH": "green toungue",
+          "NOSE": "cola",
+          "SPOTS": "beige sweater"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793037393639",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793037393639",
@@ -49850,6 +51725,31 @@
           "MOUTH": "braces",
           "NOSE": "none",
           "SPOTS": "hamburger spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038303133",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038303133",
+      "fingerprint": "asset1yd6ykhtnmvt8tddh90tluwat4kqesqega66gcf",
+      "quantity": "1",
+      "initial_mint_tx_hash": "38775256f705783d0d48742adfdcf1ec86a69118622dfeb62da260c27156e57c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08013",
+        "image": ["ipfs://bafybeih", "riir2vlnslzsivqpopcixu65lb5ecred5i2gricskjkjkdrquta"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "gold burst",
+          "SKIN": "kevin d. tan. png",
+          "EYES": "3-d glasses",
+          "CLOTHES": "pelt jacket",
+          "HAT/HAIR": "devil horns",
+          "MOUTH": "fish hook",
+          "NOSE": "none",
+          "SPOTS": "orange glow"
         }
       }
     },
@@ -51404,6 +53304,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038323831",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038323831",
+      "fingerprint": "asset1nskshu7x0fx6ygqdqm0pn482aa5h6q4d5fn2wy",
+      "quantity": "1",
+      "initial_mint_tx_hash": "efc7ee00fdbc945eb111ab840c3352909856bb34d8df1d210d3c8b87ea402be7",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08281",
+        "image": ["ipfs://bafybeid", "3c6irlvm3a6dkllouxzrqrtswpy45imn7gzpqecn6mozblbutge"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sunrise",
+          "SKIN": "green marine",
+          "EYES": "green lazer",
+          "CLOTHES": "hoody",
+          "HAT/HAIR": "brown ranchero",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "gear spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038323836",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793038323836",
@@ -52229,6 +54154,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038343038",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038343038",
+      "fingerprint": "asset1wvtqdhdp4tl9wut6cl0s6geu6djql5szp3uuxh",
+      "quantity": "1",
+      "initial_mint_tx_hash": "38775256f705783d0d48742adfdcf1ec86a69118622dfeb62da260c27156e57c",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08408",
+        "image": ["ipfs://bafybeig", "6uj5plhtq6qvlu56kdxd5tpb5o5dyp4uj4lmmonlihzkcmmwdrq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "rust",
+          "EYES": "none",
+          "CLOTHES": "punk rock jacket",
+          "HAT/HAIR": "none",
+          "MOUTH": "pch",
+          "NOSE": "clown nose",
+          "SPOTS": "pink sequin"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038343131",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793038343131",
@@ -52525,6 +54475,31 @@
           "MOUTH": "green toungue",
           "NOSE": "crying turtle",
           "SPOTS": "red sweater"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038343438",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038343438",
+      "fingerprint": "asset1cza7pewk8ephyy6tm0mlelcn5wld3rx6qwpj7d",
+      "quantity": "1",
+      "initial_mint_tx_hash": "c89c58da8ce02578801a77ab84196a20cd5adad52bb1a329d36ecbfb680ad15d",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08448",
+        "image": ["ipfs://bafybeic", "qwoaemdisx52j73puarlh3mag6x2fpa7v7lnznezi6qsdl2mwrm"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "blue snow",
+          "SKIN": "slime water",
+          "EYES": "red tree frog",
+          "CLOTHES": "grandmas sweater",
+          "HAT/HAIR": "none",
+          "MOUTH": "pink toungue",
+          "NOSE": "none",
+          "SPOTS": "wb cup"
         }
       }
     },
@@ -53075,6 +55050,31 @@
           "MOUTH": "hulk stash",
           "NOSE": "dragonfly",
           "SPOTS": "superspots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038353539",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038353539",
+      "fingerprint": "asset1jt4l5txwzujrq0m6ur9qhygcnmc86judt3knyh",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b5c726ab39436bbbb2b62471cd14794ff42c9a96d35fb85452431b1585288096",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08559",
+        "image": ["ipfs://bafybeie", "cpx7i4gkfwzacvjmi5pzhnlp5jtrd3kjf3fmiily5tt44ifuooi"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "frost",
+          "EYES": "red cyborg",
+          "CLOTHES": "bow and arrow tie",
+          "HAT/HAIR": "horns",
+          "MOUTH": "flame toungue",
+          "NOSE": "none",
+          "SPOTS": "flesh spots"
         }
       }
     },
@@ -54554,6 +56554,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038373837",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038373837",
+      "fingerprint": "asset1fku8cx4rjaap4v43dvmujjjwuqgvzdr5syayrx",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b5c726ab39436bbbb2b62471cd14794ff42c9a96d35fb85452431b1585288096",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08787",
+        "image": ["ipfs://bafybeig", "dz7ls64c26s6h6wmjw75ju722w67j2z5cwxnoyiv6yqtfek2aom"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "sundae swap",
+          "SKIN": "stone frog",
+          "EYES": "blue eyed bsby",
+          "CLOTHES": "tiger tat supreme",
+          "HAT/HAIR": "helmet netted",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "scandanavian leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038373931",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793038373931",
@@ -55154,6 +57179,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038383734",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038383734",
+      "fingerprint": "asset1emgmhpflfzgvgxvjtpuqhmtpl2lreekvrpwk8e",
+      "quantity": "1",
+      "initial_mint_tx_hash": "122dc212e23501fda4aa3d0ba02d9f1fb97a9a7dd5ef021882d9bf99018b3d44",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08874",
+        "image": ["ipfs://bafybeie", "v7edg5fooh3yz22eckjpoz7z5a7zdenkdhgusuum6spy3ff6ulq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple fade",
+          "SKIN": "pink matrix",
+          "EYES": "pink plasma",
+          "CLOTHES": "draper suit",
+          "HAT/HAIR": "snail",
+          "MOUTH": "pink toungue",
+          "NOSE": "none",
+          "SPOTS": "at night spots"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038383737",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793038383737",
@@ -55700,6 +57750,31 @@
           "MOUTH": "none",
           "NOSE": "none",
           "SPOTS": "pink sequin"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793038393839",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793038393839",
+      "fingerprint": "asset1z69leurngdzsysusepl892klfxfayulnvtf2y6",
+      "quantity": "1",
+      "initial_mint_tx_hash": "b5c726ab39436bbbb2b62471cd14794ff42c9a96d35fb85452431b1585288096",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #08989",
+        "image": ["ipfs://bafybeia", "vz7pa3ns5afgxssic6k47zsafnqku4uua5hd7npxrmd5sgfn3zu"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "purple amoeba-min",
+          "SKIN": "neon blue",
+          "EYES": "blue ring",
+          "CLOTHES": "tiger tat supreme",
+          "HAT/HAIR": "none",
+          "MOUTH": "hulk stash",
+          "NOSE": "dart",
+          "SPOTS": "polkadot spot"
         }
       }
     },
@@ -56879,6 +58954,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039323032",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039323032",
+      "fingerprint": "asset10sre69slqmj7jnpfm64tpk33qc3fnaxnj47gzk",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4f8909de979d3cd0f6f6c60972701ed0f02c6f8501eb97c2d560a8aadcaa29de",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09202",
+        "image": ["ipfs://bafybeif", "inpu2qnvczhp5q353cukqcqh475ab3gfgwai3yrvx2qjrm3ll3u"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "tabby fur",
+          "EYES": "none",
+          "CLOTHES": "punk rock jacket",
+          "HAT/HAIR": "brain hat",
+          "MOUTH": "none",
+          "NOSE": "bull horn",
+          "SPOTS": "blue sweater"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039323034",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793039323034",
@@ -57429,6 +59529,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039323830",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039323830",
+      "fingerprint": "asset12cmed9pwkftmglt300kup2j9cr39vqnhktzxm0",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7aad8a373b4ac85c0934fcd1e241862c56932394f7641c8bcb97a0af02d6434b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09280",
+        "image": ["ipfs://bafybeic", "istzmhx3brzw6fejw2obuyf3rmkbxr6v36lx4wnwa2k7tjyrhju"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "yellow hex blood",
+          "SKIN": "ob green",
+          "EYES": "night man",
+          "CLOTHES": "cosplayer",
+          "HAT/HAIR": "none",
+          "MOUTH": "none",
+          "NOSE": "dual spike",
+          "SPOTS": "purple leather"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039323834",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793039323834",
@@ -57650,6 +59775,31 @@
           "MOUTH": "lightbulb",
           "NOSE": "none",
           "SPOTS": "teal fur"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039333137",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039333137",
+      "fingerprint": "asset1txcvl3qf72re79lgc30y54kcjezz0n73zegf52",
+      "quantity": "1",
+      "initial_mint_tx_hash": "1cb494f03774b3761c5963f0f5bcd3bff35cff68892ea8c0c49a104112fa7c7f",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09317",
+        "image": ["ipfs://bafybeie", "6b2lebs3m5jm5naupkq3zhshjitqzjghzpvu4wvwdn6kawd2xbe"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral wall",
+          "SKIN": "pink matrix",
+          "EYES": "pink circles",
+          "CLOTHES": "vg shirt",
+          "HAT/HAIR": "frogenstein",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "camo spots"
         }
       }
     },
@@ -59379,6 +61529,31 @@
       }
     },
     {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039363032",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039363032",
+      "fingerprint": "asset1w20t9s2aulmw8tda3etehurgydqwvkdguy380x",
+      "quantity": "1",
+      "initial_mint_tx_hash": "8d1f2723672d49c9497385a6d3c165a7ebd46f18a87a4cd5c657f8279f542dfb",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09602",
+        "image": ["ipfs://bafybeih", "4ojepen2mp6purkzvzubmqgoqm6hff3mgwyrpxb62aym24gduzi"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "orange orb-min",
+          "SKIN": "rust",
+          "EYES": "none",
+          "CLOTHES": "blue overalls",
+          "HAT/HAIR": "striped ranchero",
+          "MOUTH": "flame toungue",
+          "NOSE": "dual gold hoop",
+          "SPOTS": "bloody egg"
+        }
+      }
+    },
+    {
       "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039363130",
       "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
       "asset_name": "46726f67466163746f72793039363130",
@@ -59550,6 +61725,31 @@
           "MOUTH": "platinum grill",
           "NOSE": "none",
           "SPOTS": "70s spots"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039363434",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039363434",
+      "fingerprint": "asset1r7mcfhqz4g4kpj55gftxe55wwv7pzcx99d0yyy",
+      "quantity": "1",
+      "initial_mint_tx_hash": "4f8909de979d3cd0f6f6c60972701ed0f02c6f8501eb97c2d560a8aadcaa29de",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09644",
+        "image": ["ipfs://bafybeia", "ii2zek3nj2nnccaqm32frgqdnumzu327mmyyq4ec3l7cdhmmkpe"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "level 2",
+          "SKIN": "velvet cake",
+          "EYES": "none",
+          "CLOTHES": "skull chain",
+          "HAT/HAIR": "red halo",
+          "MOUTH": "cigar",
+          "NOSE": "dragonfly",
+          "SPOTS": "hush red black"
         }
       }
     },
@@ -61225,6 +63425,31 @@
           "MOUTH": "none",
           "NOSE": "clown nose",
           "SPOTS": "orange fur"
+        }
+      }
+    },
+    {
+      "asset": "b0fd70c54645a926e7a1e651869f93f1354245712c9712822280590946726f67466163746f72793039393134",
+      "policy_id": "b0fd70c54645a926e7a1e651869f93f1354245712c97128222805909",
+      "asset_name": "46726f67466163746f72793039393134",
+      "fingerprint": "asset13u2yq43ahexzm9x22jvcv8txavw8wf6w2sqjc4",
+      "quantity": "1",
+      "initial_mint_tx_hash": "7aad8a373b4ac85c0934fcd1e241862c56932394f7641c8bcb97a0af02d6434b",
+      "mint_or_burn_count": 1,
+      "metadata": null,
+      "onchain_metadata": {
+        "name": "Frog Factory #09914",
+        "image": ["ipfs://bafybeia", "agzhqkv5ruokxs2sljhhxdp3rtnbgmihbnzpjxktwofa2gcc6cq"],
+        "minted by": "https://tygar-pool.com",
+        "Attributes": {
+          "BACKGROUND": "floral wall",
+          "SKIN": "kimmy skin",
+          "EYES": "monacle",
+          "CLOTHES": "cosplayer",
+          "HAT/HAIR": "snail",
+          "MOUTH": "none",
+          "NOSE": "none",
+          "SPOTS": "hush flower"
         }
       }
     },
