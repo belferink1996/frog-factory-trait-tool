@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useState } from 'react'
 import toast from 'react-hot-toast'
 import blockfrostJsonFile from '../data/blockfrost'
-import walletsReducer from '../reducers/walletsReducer'
 import { getAssetsFromStake, getStakeFromWallet } from '../functions/blockfrost'
 import { fromHex } from '../functions/hex'
 import CONSTANTS from '../constants'
@@ -12,6 +11,23 @@ const WalletsContext = createContext()
 // export the consumer
 export function useWallets() {
   return useContext(WalletsContext)
+}
+
+const walletsReducer = (state = [], action) => {
+  switch (action.type) {
+    case CONSTANTS.SET_WALLETS:
+      return action.payload
+
+    case CONSTANTS.ADD_WALLET:
+      return [action.payload, ...state]
+
+    case CONSTANTS.DELETE_WALLET:
+      const copyState = [...state]
+      return copyState.filter((item) => item.stakeAddress !== action.payload)
+
+    default:
+      return state
+  }
 }
 
 // export the provider (handle all the logic here)
