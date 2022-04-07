@@ -1,15 +1,61 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { useWallets } from '../../../contexts/WalletsContext'
 import getImageFromIPFS from '../../../functions/getImageFromIPFS'
 import Modal from '../../Modal'
 import AssetCard from '../../AssetCard'
 import CaretDown from '../../../icons/CaretDown'
 import CaretUp from '../../../icons/CaretUp'
+import CONSTANTS from '../../../constants'
 import styles from './MyTraits.module.css'
 
 const MyTraits = () => {
-  const { wallets, dataFrogs, noDataFrogs, traitComponents, toggleTraitComponent } = useWallets()
+  const { wallets, dataFrogs, noDataFrogs } = useWallets()
+
   const [selectedTrait, setSelectedTrait] = useState({ category: '', label: '' })
+  const [traitComponents, setTraitComponents] = useState(() => {
+    const initialState = {}
+
+    CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
+      initialState[cat] = { openUiComponent: true, traits: [] }
+    })
+
+    return initialState
+  })
+
+  useEffect(() => {
+    dataFrogs.forEach((blockfrostAsset) => {
+      Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
+        const newState = { ...traitComponents }
+        const foundTraitIndex = newState[_c].traits.findIndex((_t) => _t.label === _l)
+
+        if (foundTraitIndex === -1) {
+          const _t = {
+            label: _l,
+            count: 1,
+          }
+
+          newState[_c].traits.push(_t)
+        } else {
+          const _t = { ...newState[_c].traits[foundTraitIndex] }
+          _t.count += 1
+
+          newState[_c].traits[foundTraitIndex] = _t
+        }
+
+        setTraitComponents(newState)
+      })
+    })
+  }, [dataFrogs])
+
+  const toggleTraitComponent = (_c) => {
+    setTraitComponents((prev) => ({
+      ...prev,
+      [_c]: {
+        ...prev[_c],
+        openUiComponent: !prev[_c].openUiComponent,
+      },
+    }))
+  }
 
   const clickTrait = (_c, _l) => {
     setSelectedTrait({

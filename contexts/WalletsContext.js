@@ -136,15 +136,6 @@ export function WalletsProvider({ children }) {
 
   const [dataFrogs, setDataFrogs] = useState([])
   const [noDataFrogs, setNoDataFrogs] = useState([])
-  const [traitComponents, setTraitComponents] = useState(() => {
-    const initialState = {}
-
-    CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
-      initialState[cat] = { openUiComponent: false, traits: [] }
-    })
-
-    return initialState
-  })
 
   useEffect(() => {
     wallets.forEach((wallet) => {
@@ -157,51 +148,19 @@ export function WalletsProvider({ children }) {
         }
 
         setDataFrogs((prev) => [...prev, blockfrostAsset])
-        Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
-          const newState = { ...traitComponents }
-          const foundTraitIndex = newState[_c].traits.findIndex((_t) => _t.label === _l)
-
-          if (foundTraitIndex === -1) {
-            const _t = {
-              label: _l,
-              count: 1,
-            }
-
-            newState[_c].traits.push(_t)
-          } else {
-            const _t = { ...newState[_c].traits[foundTraitIndex] }
-            _t.count += 1
-
-            newState[_c].traits[foundTraitIndex] = _t
-          }
-
-          setTraitComponents(newState)
-        })
       })
     })
   }, [wallets])
-
-  const toggleTraitComponent = (_c) => {
-    setTraitComponents((prev) => ({
-      ...prev,
-      [_c]: {
-        ...prev[_c],
-        openUiComponent: !prev[_c].openUiComponent,
-      },
-    }))
-  }
 
   return (
     <WalletsContext.Provider
       value={{
         wallets,
-        dataFrogs,
-        noDataFrogs,
-        traitComponents,
         addWallet,
         deleteWallet,
         syncWallets,
-        toggleTraitComponent,
+        dataFrogs,
+        noDataFrogs,
       }}
     >
       {children}
