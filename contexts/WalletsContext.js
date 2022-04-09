@@ -33,6 +33,8 @@ const walletsReducer = (state = [], action) => {
 // export the provider (handle all the logic here)
 export function WalletsProvider({ children }) {
   const [wallets, dispatch] = useReducer(walletsReducer, [])
+  const [dataFrogs, setDataFrogs] = useState([])
+  const [noDataFrogs, setNoDataFrogs] = useState([])
 
   useEffect(() => {
     // once window is loaded, get wallets from local storage,
@@ -55,6 +57,21 @@ export function WalletsProvider({ children }) {
       window.localStorage.setItem(CONSTANTS.FROG_FACTORY_WALLETS_STORAGE_KEY, JSON.stringify(wallets))
     }
   }, [window, wallets])
+
+  useEffect(() => {
+    wallets.forEach((wallet) => {
+      wallet.assets.forEach((assetId, idx, arr) => {
+        const blockfrostAsset = blockfrostJsonFile.assets.find(({ asset }) => asset === assetId)
+
+        if (!blockfrostAsset) {
+          setNoDataFrogs((prev) => [...prev, fromHex(assetId.replace(CONSTANTS.POLICY_ID, ''))])
+          return
+        }
+
+        setDataFrogs((prev) => [...prev, blockfrostAsset])
+      })
+    })
+  }, [wallets])
 
   const addWallet = async (str) => {
     const walletAddress = String(str)
@@ -96,6 +113,8 @@ export function WalletsProvider({ children }) {
         assets,
       }
 
+      setDataFrogs([])
+      setNoDataFrogs([])
       dispatch({ type: CONSTANTS.ADD_WALLET, payload })
       toast.success('Succesfully got data from the Blockchain')
     } catch (error) {
@@ -106,6 +125,8 @@ export function WalletsProvider({ children }) {
 
   const deleteWallet = (stakeAddress) => {
     if (window.confirm('Are you sure you want to delete this wallet?')) {
+      setDataFrogs([])
+      setNoDataFrogs([])
       dispatch({ type: CONSTANTS.DELETE_WALLET, payload: stakeAddress })
     }
   }
@@ -130,27 +151,11 @@ export function WalletsProvider({ children }) {
       })
     )
 
+    setDataFrogs([])
+    setNoDataFrogs([])
     dispatch({ type: CONSTANTS.SET_WALLETS, payload: syncedWallets })
     toast.success('Succesfully synced wallets with the Blockchain')
   }
-
-  const [dataFrogs, setDataFrogs] = useState([])
-  const [noDataFrogs, setNoDataFrogs] = useState([])
-
-  useEffect(() => {
-    wallets.forEach((wallet) => {
-      wallet.assets.forEach((assetId, idx, arr) => {
-        const blockfrostAsset = blockfrostJsonFile.assets.find(({ asset }) => asset === assetId)
-
-        if (!blockfrostAsset) {
-          setNoDataFrogs((prev) => [...prev, fromHex(assetId.replace(CONSTANTS.POLICY_ID, ''))])
-          return
-        }
-
-        setDataFrogs((prev) => [...prev, blockfrostAsset])
-      })
-    })
-  }, [wallets])
 
   return (
     <WalletsContext.Provider
