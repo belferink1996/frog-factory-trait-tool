@@ -6,7 +6,7 @@ import { fromHex } from '../functions/hex'
 import CONSTANTS from '../constants'
 
 // init context
-const WalletsContext = createContext()
+export const WalletsContext = createContext()
 
 // export the consumer
 export function useWallets() {
@@ -59,6 +59,9 @@ export function WalletsProvider({ children }) {
   }, [window, wallets])
 
   useEffect(() => {
+    setDataFrogs([])
+    setNoDataFrogs([])
+
     wallets.forEach((wallet) => {
       wallet.assets.forEach((assetId, idx, arr) => {
         const blockfrostAsset = blockfrostJsonFile.assets.find(({ asset }) => asset === assetId)
@@ -113,8 +116,6 @@ export function WalletsProvider({ children }) {
         assets,
       }
 
-      setDataFrogs([])
-      setNoDataFrogs([])
       dispatch({ type: CONSTANTS.ADD_WALLET, payload })
       toast.success('Succesfully got data from the Blockchain')
     } catch (error) {
@@ -125,8 +126,6 @@ export function WalletsProvider({ children }) {
 
   const deleteWallet = (stakeAddress) => {
     if (window.confirm('Are you sure you want to delete this wallet?')) {
-      setDataFrogs([])
-      setNoDataFrogs([])
       dispatch({ type: CONSTANTS.DELETE_WALLET, payload: stakeAddress })
     }
   }
@@ -151,8 +150,6 @@ export function WalletsProvider({ children }) {
       })
     )
 
-    setDataFrogs([])
-    setNoDataFrogs([])
     dispatch({ type: CONSTANTS.SET_WALLETS, payload: syncedWallets })
     toast.success('Succesfully synced wallets with the Blockchain')
   }
@@ -161,11 +158,11 @@ export function WalletsProvider({ children }) {
     <WalletsContext.Provider
       value={{
         wallets,
+        dataFrogs,
+        noDataFrogs,
         addWallet,
         deleteWallet,
         syncWallets,
-        dataFrogs,
-        noDataFrogs,
       }}
     >
       {children}

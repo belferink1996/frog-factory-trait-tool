@@ -1,14 +1,61 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { useWallets } from '../../../contexts/WalletsContext'
 import getImageFromIPFS from '../../../functions/getImageFromIPFS'
 import Modal from '../../Modal'
 import AssetCard from '../../AssetCard'
+import CaretDown from '../../../icons/CaretDown'
+import CaretUp from '../../../icons/CaretUp'
 import CONSTANTS from '../../../constants'
 import styles from './MyTraits.module.css'
 
+const initialTraitComponentsState = {}
+
+CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
+  initialTraitComponentsState[cat] = { openUiComponent: true, traits: [] }
+})
+
 const MyTraits = () => {
   const { wallets, dataFrogs, noDataFrogs } = useWallets()
+
   const [selectedTrait, setSelectedTrait] = useState({ category: '', label: '' })
+  const [traitComponents, setTraitComponents] = useState(initialTraitComponentsState)
+
+  useEffect(() => {
+    setTraitComponents(initialTraitComponentsState)
+
+    dataFrogs.forEach((blockfrostAsset) => {
+      Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
+        const newState = { ...traitComponents }
+        const foundTraitIndex = newState[_c].traits.findIndex((_t) => _t.label === _l)
+
+        if (foundTraitIndex === -1) {
+          const _t = {
+            label: _l,
+            count: 1,
+          }
+
+          newState[_c].traits.push(_t)
+        } else {
+          const _t = { ...newState[_c].traits[foundTraitIndex] }
+          _t.count += 1
+
+          newState[_c].traits[foundTraitIndex] = _t
+        }
+
+        setTraitComponents(newState)
+      })
+    })
+  }, [dataFrogs])
+
+  const toggleTraitComponent = (_c) => {
+    setTraitComponents((prev) => ({
+      ...prev,
+      [_c]: {
+        ...prev[_c],
+        openUiComponent: !prev[_c].openUiComponent,
+      },
+    }))
+  }
 
   const clickTrait = (_c, _l) => {
     setSelectedTrait({ category: _c, label: _l })
@@ -18,47 +65,14 @@ const MyTraits = () => {
     <Fragment>
       <div className={styles.categories}>
         {wallets.length
-          ? Object.entries(
-              (() => {
-                let state = {}
-
-                CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
-                  state[cat] = []
-                })
-
-                dataFrogs.forEach((blockfrostAsset) => {
-                  Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
-                    const newState = { ...state }
-                    const foundTraitIndex = newState[_c].findIndex((_t) => _t.label === _l)
-
-                    if (foundTraitIndex === -1) {
-                      const _t = {
-                        label: _l,
-                        count: 1,
-                      }
-
-                      newState[_c].push(_t)
-                    } else {
-                      const _t = { ...newState[_c][foundTraitIndex] }
-                      _t.count += 1
-
-                      newState[_c][foundTraitIndex] = _t
-                    }
-
-                    state = newState
-                  })
-                })
-
-                return state
-              })()
-            ).map(([_c, traits]) => (
+          ? Object.entries(traitComponents).map(([_c, { openUiComponent, traits }]) => (
               <div key={`trait-category-${_c}`} className={styles.category}>
-                <div className={styles.header}>
+                <div className={styles.header} onClick={() => toggleTraitComponent(_c)}>
                   <h3>{_c}</h3>
                   <span>{traits.length}</span>
                 </div>
 
-                {traits.length ? (
+                {openUiComponent && traits.length ? (
                   <Fragment>
                     {traits
                       .sort((a, b) => b.count - a.count)
@@ -69,6 +83,10 @@ const MyTraits = () => {
                       ))}
                   </Fragment>
                 ) : null}
+
+                <div className={styles.caret} onClick={() => toggleTraitComponent(_c)}>
+                  {openUiComponent ? <CaretUp size={18} /> : <CaretDown size={18} />}
+                </div>
               </div>
             ))
           : null}
