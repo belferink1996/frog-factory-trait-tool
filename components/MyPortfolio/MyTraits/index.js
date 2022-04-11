@@ -69,6 +69,8 @@ const MyTraits = () => {
                       ))}
                   </Fragment>
                 ) : null}
+
+                {traits.length ? <br /> : null}
               </div>
             ))
           : null}
