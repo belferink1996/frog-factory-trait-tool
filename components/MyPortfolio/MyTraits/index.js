@@ -1,6 +1,5 @@
 import { Fragment, useState } from 'react'
 import { useWallets } from '../../../contexts/WalletsContext'
-import getImageFromIPFS from '../../../functions/getImageFromIPFS'
 import Modal from '../../Modal'
 import AssetCard from '../../AssetCard'
 import CONSTANTS from '../../../constants'
@@ -111,7 +110,7 @@ const MyTraits = () => {
               <AssetCard
                 key={`frog-${frog.asset}`}
                 name={frog.onchain_metadata.name}
-                imageSrc={getImageFromIPFS(frog.onchain_metadata.image.join(''))}
+                imageSrc={frog.onchain_metadata.image}
                 itemUrl={`https://pool.pm/${frog.fingerprint}`}
                 spanArray={Object.entries(frog.onchain_metadata.Attributes).map(([_c, _l]) => `${_c}: ${_l}`)}
               />

@@ -8,23 +8,32 @@ const POLICY_ID = CONSTANTS.POLICY_ID
 const BLOCKFROST_API = CONSTANTS.BLOCKFROST_API
 const BLOCKFROST_KEY = CONSTANTS.BLOCKFROST_KEY
 
-const formatAssetAttributes = ({ onchain_metadata, ...asset }) => {
+const formatIpfsImageUrl = (ipfsUri) => {
+  return `https://ipfs.io/ipfs/${ipfsUri.replace('ipfs://', '')}`
+}
+
+const formatAsset = ({ onchain_metadata, ...asset }) => {
   const payload = {}
 
   CONSTANTS.TRAIT_CATEGORIES.forEach((_c) => {
     payload[_c] = 'none'
   })
 
-  onchain_metadata.Attributes.forEach((str) => {
+  const { Attributes, image } = onchain_metadata
+
+  Attributes.forEach((str) => {
     const [_c, _l] = str.split(': ')
     if (_c && _l) payload[_c.toUpperCase()] = _l.toLowerCase()
   })
+
+  const formatedImageUrl = formatIpfsImageUrl(Array.isArray(image) ? image.join('') : image)
 
   return {
     ...asset,
     onchain_metadata: {
       ...onchain_metadata,
       Attributes: payload,
+      image: formatedImageUrl,
     },
   }
 }
@@ -64,7 +73,7 @@ const run = async () => {
             },
           })
 
-          populatedAssets.push(formatAssetAttributes(populatedAsset))
+          populatedAssets.push(formatAsset(populatedAsset))
         }
       }
     }
