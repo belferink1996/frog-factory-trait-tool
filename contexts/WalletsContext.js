@@ -154,6 +154,39 @@ export function WalletsProvider({ children }) {
     toast.success('Succesfully synced wallets with the Blockchain')
   }
 
+  const getCategoriesAndTraitsCount = () => {
+    let payload = {}
+
+    CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
+      payload[cat] = []
+    })
+
+    dataFrogs.forEach((blockfrostAsset) => {
+      Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
+        const newState = { ...payload }
+        const foundTraitIndex = newState[_c].findIndex((_t) => _t.label === _l)
+
+        if (foundTraitIndex === -1) {
+          const _t = {
+            label: _l,
+            count: 1,
+          }
+
+          newState[_c].push(_t)
+        } else {
+          const _t = { ...newState[_c][foundTraitIndex] }
+          _t.count += 1
+
+          newState[_c][foundTraitIndex] = _t
+        }
+
+        payload = newState
+      })
+    })
+
+    return payload
+  }
+
   return (
     <WalletsContext.Provider
       value={{
@@ -163,6 +196,7 @@ export function WalletsProvider({ children }) {
         addWallet,
         deleteWallet,
         syncWallets,
+        getCategoriesAndTraitsCount,
       }}
     >
       {children}

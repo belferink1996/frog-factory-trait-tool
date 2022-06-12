@@ -2,11 +2,10 @@ import { Fragment, useState } from 'react'
 import { useWallets } from '../../../contexts/WalletsContext'
 import Modal from '../../Modal'
 import AssetCard from '../../AssetCard'
-import CONSTANTS from '../../../constants'
 import styles from './MyTraits.module.css'
 
 const MyTraits = () => {
-  const { wallets, dataFrogs, noDataFrogs } = useWallets()
+  const { wallets, dataFrogs, noDataFrogs, getCategoriesAndTraitsCount } = useWallets()
   const [selectedTrait, setSelectedTrait] = useState({ category: '', label: '' })
 
   const clickTrait = (_c, _l) => {
@@ -17,40 +16,7 @@ const MyTraits = () => {
     <Fragment>
       <div className={styles.categories}>
         {wallets.length
-          ? Object.entries(
-              (() => {
-                let state = {}
-
-                CONSTANTS.TRAIT_CATEGORIES.forEach((cat) => {
-                  state[cat] = []
-                })
-
-                dataFrogs.forEach((blockfrostAsset) => {
-                  Object.entries(blockfrostAsset.onchain_metadata.Attributes).forEach(([_c, _l]) => {
-                    const newState = { ...state }
-                    const foundTraitIndex = newState[_c].findIndex((_t) => _t.label === _l)
-
-                    if (foundTraitIndex === -1) {
-                      const _t = {
-                        label: _l,
-                        count: 1,
-                      }
-
-                      newState[_c].push(_t)
-                    } else {
-                      const _t = { ...newState[_c][foundTraitIndex] }
-                      _t.count += 1
-
-                      newState[_c][foundTraitIndex] = _t
-                    }
-
-                    state = newState
-                  })
-                })
-
-                return state
-              })()
-            ).map(([_c, traits]) => (
+          ? Object.entries(getCategoriesAndTraitsCount()).map(([_c, traits]) => (
               <div key={`trait-category-${_c}`} className={styles.category}>
                 <div className={styles.header}>
                   <h3>{_c}</h3>

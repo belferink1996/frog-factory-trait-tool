@@ -18,7 +18,8 @@
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-hot-toast": "^2.2.0"
+    "react-hot-toast": "^2.2.0",
+    "write-excel-file": "^1.4.4"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
